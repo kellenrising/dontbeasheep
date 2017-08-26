@@ -1,9 +1,9 @@
-﻿Log file open, 08/25/17 22:38:08
+﻿Log file open, 08/26/17 04:05:06
 LogInit:Display: Running engine for game: dontbeasheep
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(1000112389) SRandInit(1000112389).
-LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.088512
+LogInit:Display: RandInit(-1841615793) SRandInit(-1841615793).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.059219
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -48,616 +48,619 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.08.26-05.38.10:247][  0]LogInit: Selected Device Profile: [Windows]
-[2017.08.26-05.38.10:247][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.08.26-05.38.10:282][  0]LogInit: Computer: 2032-01-265-21
-[2017.08.26-05.38.10:282][  0]LogInit: User: Student
-[2017.08.26-05.38.10:282][  0]LogInit: CPU Page size=65536, Cores=4
-[2017.08.26-05.38.10:282][  0]LogInit: High frequency timer resolution =3.604638 MHz
-[2017.08.26-05.38.10:282][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2017.08.26-05.38.10:282][  0]LogMemory: Platform Memory Stats for Windows
-[2017.08.26-05.38.10:282][  0]LogMemory: Process Physical Memory: 264.88 MB used, 264.88 MB peak
-[2017.08.26-05.38.10:282][  0]LogMemory: Process Virtual Memory: 265.36 MB used, 265.36 MB peak
-[2017.08.26-05.38.10:282][  0]LogMemory: Physical Memory: 6346.00 MB used,  9961.85 MB free, 16307.85 MB total
-[2017.08.26-05.38.10:282][  0]LogMemory: Virtual Memory: 633.44 MB used,  9961.85 MB free, 8388608.00 MB total
-[2017.08.26-05.38.10:380][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2017.08.26-05.38.10:948][  0]LogD3D11RHI: D3D11 adapters:
-[2017.08.26-05.38.10:970][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
-[2017.08.26-05.38.10:970][  0]LogD3D11RHI:       8084/0/7897 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.08.26-05.38.10:970][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.08.26-05.38.10:977][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.08.26-05.38.10:977][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
-[2017.08.26-05.38.10:977][  0]LogWindows: EnumDisplayDevices:
-[2017.08.26-05.38.10:977][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
-[2017.08.26-05.38.10:977][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2017.08.26-05.38.10:977][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2017.08.26-05.38.10:977][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2017.08.26-05.38.10:977][  0]LogWindows:    4. 'Symantec pcAnywhere mirror driver' (P:0 D:0)
-[2017.08.26-05.38.10:977][  0]LogWindows:    5. 'RDPDD Chained DD' (P:0 D:0)
-[2017.08.26-05.38.10:977][  0]LogWindows:    6. 'RDP Encoder Mirror Driver' (P:0 D:0)
-[2017.08.26-05.38.10:977][  0]LogWindows:    7. 'RDP Reflector Display Driver' (P:0 D:0)
-[2017.08.26-05.38.10:977][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2017.08.26-05.38.10:977][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
-[2017.08.26-05.38.10:977][  0]LogD3D11RHI:   Driver Version: 376.33 (internal:21.21.13.7633, unified:376.33)
-[2017.08.26-05.38.10:977][  0]LogD3D11RHI:      Driver Date: 12-11-2016
-[2017.08.26-05.38.10:977][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.08.26-05.38.10:987][  0]LogD3D11RHI: Async texture creation enabled
-[2017.08.26-05.38.11:002][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2017.08.26-05.38.11:049][  0]LogShaderCompilers: Guid format shader working directory is 3 characters bigger than the processId version (I:/acepeda/public/A_GAMEJAM_SHEEPLE/dontbeasheep/Intermediate/Shaders/WorkingDirectory/69600/).
-[2017.08.26-05.38.11:049][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Student.AII/AppData/Local/Temp/UnrealShaderWorkingDir/7336F7DB49E4160A79897F91633C03FE/'.
-[2017.08.26-05.38.11:050][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.08.26-05.38.11:960][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.08.26-05.38.12:030][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.08.26-05.38.12:099][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.08.26-05.38.12:168][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.08.26-05.38.12:237][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.08.26-05.38.12:306][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.08.26-05.38.12:375][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.08.26-05.38.12:465][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.08.26-05.38.12:520][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.08.26-05.38.12:598][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.08.26-05.38.12:665][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.08.26-05.38.12:733][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.08.26-05.38.12:802][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.08.26-05.38.12:871][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.08.26-05.38.12:939][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.08.26-05.38.13:075][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.08.26-05.38.13:075][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.08.26-05.38.13:122][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.08.26-05.38.13:235][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.08.26-05.38.13:279][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.08.26-05.38.13:347][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.08.26-05.38.13:414][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.08.26-05.38.13:482][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.08.26-05.38.13:551][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.08.26-05.38.13:551][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.08.26-05.38.14:069][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.08.26-05.38.14:124][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/Student.AII/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
-[2017.08.26-05.38.14:124][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Student.AII/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
-[2017.08.26-05.38.14:125][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file I:/acepeda/public/A_GAMEJAM_SHEEPLE/dontbeasheep/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.08.26-05.38.14:125][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.08.26-05.38.14:125][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file I:/acepeda/public/A_GAMEJAM_SHEEPLE/dontbeasheep/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.08.26-05.38.14:125][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.08.26-05.38.14:143][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.08.26-05.38.14:155][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Student.AII/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.08.26-05.38.14:164][  0]LogSlate: Using Freetype 2.6.0
-[2017.08.26-05.38.14:164][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.08.26-05.38.14:164][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.08.26-05.38.14:468][  0]LogInit: Selected Device Profile: [Windows]
-[2017.08.26-05.38.14:471][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.08.26-05.38.14:726][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.08.26-05.38.14:779][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.08.26-05.38.14:836][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.08.26-05.38.14:836][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.08.26-05.38.14:836][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.08.26-05.38.15:428][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: dontbeasheep, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1071483114
-[2017.08.26-05.38.15:477][  0]LogAssetRegistry: FAssetRegistry took 0.0196 seconds to start up
-[2017.08.26-05.38.16:064][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.543153 seconds
-[2017.08.26-05.38.16:068][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
-[2017.08.26-05.38.16:068][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
-[2017.08.26-05.38.16:068][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.08.26-05.38.16:144][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.08.26-05.38.18:077][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.08.26-05.38.18:122][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.08.26-05.38.18:122][  0]LogDirectoryWatcher: A directory notification failed for 'I:/acepeda/public/A_GAMEJAM_SHEEPLE/dontbeasheep/Content/' because it was empty or there was a buffer overflow. Attemping another request...
-[2017.08.26-05.38.19:382][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.08.26-05.38.19:857][  0]SourceControl: Info Source control is disabled
-[2017.08.26-05.38.19:888][  0]SourceControl: Info Source control is disabled
-[2017.08.26-05.38.19:946][  0]SourceControl: Info Source control is disabled
-[2017.08.26-05.38.20:001][  0]SourceControl: Info Source control is disabled
-[2017.08.26-05.38.21:463][  0]LogEngine: Initializing Engine...
-[2017.08.26-05.38.21:464][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.08.26-05.38.21:578][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.08.26-05.38.21:578][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.08.26-05.38.21:726][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.08.26-05.38.21:735][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.08.26-05.38.21:744][  0]LogInit: FAudioDevice initialized.
-[2017.08.26-05.38.21:770][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/Student.AII/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
-[2017.08.26-05.38.21:775][  0]LogInit: Texture streaming: Enabled
-[2017.08.26-05.38.21:886][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.08.26-05.38.21:990][  0]LogInit: Transaction tracking system initialized
-[2017.08.26-05.38.22:404][  0]BlueprintLog: New page: Editor Load
-[2017.08.26-05.38.23:509][  0]LocalizationService: Info Localization service is disabled
-[2017.08.26-05.38.24:310][  0]LogConsoleResponse:Display: 
-[2017.08.26-05.38.24:443][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.08.26-05.38.24:443][  0]LogCook:Display: Mobile HDR setting 1
-[2017.08.26-05.38.25:601][  0]LogFileCache: Scanning file cache for directory 'I:/acepeda/public/A_GAMEJAM_SHEEPLE/dontbeasheep/Content/' took 0.03s
-[2017.08.26-05.38.25:654][  0]SourceControl: Info Source control is disabled
-[2017.08.26-05.38.25:654][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.08.26-05.38.25:654][  0]LightingResults: New page: Lighting Build
-[2017.08.26-05.38.25:705][  0]MapCheck: New page: Map Check
-[2017.08.26-05.38.25:705][  0]LightingResults: New page: Lighting Build
-[2017.08.26-05.38.25:933][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2017.08.26-05.38.25:951][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
-[2017.08.26-05.38.25:956][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.08.26-05.38.25:959][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.08.26-05.38.26:003][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 43.752ms to complete.
-[2017.08.26-05.38.26:003][  0]LogFileHelpers: Loading map 'Template_Default' took 0.349
-[2017.08.26-05.38.26:166][  0]LogCollectionManager: Loaded 0 collections in 0.005269 seconds
-[2017.08.26-05.38.26:266][  0]LogFileCache: Scanning file cache for directory 'I:/acepeda/public/A_GAMEJAM_SHEEPLE/dontbeasheep/Saved/Collections/' took 0.01s
-[2017.08.26-05.38.26:266][  0]LogFileCache: Scanning file cache for directory 'I:/acepeda/public/A_GAMEJAM_SHEEPLE/dontbeasheep/Content/Developers/Student/Collections/' took 0.01s
-[2017.08.26-05.38.26:266][  0]LogFileCache: Scanning file cache for directory 'I:/acepeda/public/A_GAMEJAM_SHEEPLE/dontbeasheep/Content/Collections/' took 0.01s
-[2017.08.26-05.38.26:266][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2017.08.26-05.38.26:275][  0]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2245 classes and 453 folders.
-[2017.08.26-05.38.26:353][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2017.08.26-05.38.26:397][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2017.08.26-05.38.26:449][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2017.08.26-05.38.26:504][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.08.26-05.38.26:509][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.08.26-05.38.26:582][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0015 seconds. Added 1 classes and 2 folders.
-[2017.08.26-05.38.26:582][  0]LogLoad: (Engine Initialization) Total time: 19.30 seconds
-[2017.08.26-05.38.26:582][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.10 seconds
-[2017.08.26-05.38.26:582][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.08.26-05.38.26:582][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.08.26-05.38.26:591][  0]LogOcInput: OculusInput pre-init called
-[2017.08.26-05.38.26:607][  0]LogDirectoryWatcher: A directory notification failed for 'I:/acepeda/public/A_GAMEJAM_SHEEPLE/dontbeasheep/Content/' because it was empty or there was a buffer overflow. Attemping another request...
-[2017.08.26-05.38.26:608][  0]LogDirectoryWatcher: A directory notification failed for 'I:/acepeda/public/A_GAMEJAM_SHEEPLE/dontbeasheep/Content/', and we were unable to create a new request.
-[2017.08.26-05.38.26:608][  0]LogDirectoryWatcher: A directory notification failed for 'I:/acepeda/public/A_GAMEJAM_SHEEPLE/dontbeasheep/Saved/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
-[2017.08.26-05.38.26:608][  0]LogDirectoryWatcher: A directory notification failed for 'I:/acepeda/public/A_GAMEJAM_SHEEPLE/dontbeasheep/Content/Developers/Student/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
-[2017.08.26-05.38.26:608][  0]LogDirectoryWatcher: A directory notification failed for 'I:/acepeda/public/A_GAMEJAM_SHEEPLE/dontbeasheep/Content/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
-[2017.08.26-05.38.26:613][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.08.26-05.38.26:614][  0]LogSlate: Took 0.000242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.08.26-05.38.26:618][  0]LogSlate: Took 0.000259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.08.26-05.38.26:624][  0]LogSlate: Took 0.000192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.08.26-05.38.26:729][  0]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.08.26-05.38.26:787][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
-[2017.08.26-05.38.26:880][  1]LogAssetRegistry: Asset discovery search completed in 11.4239 seconds
-[2017.08.26-05.38.26:880][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
-[2017.08.26-05.38.26:880][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000019 seconds (updated 0 objects)
-[2017.08.26-05.38.26:880][  1]LogDirectoryWatcher: A directory notification failed for 'I:/acepeda/public/A_GAMEJAM_SHEEPLE/dontbeasheep/Saved/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
-[2017.08.26-05.38.26:881][  1]LogDirectoryWatcher: A directory notification failed for 'I:/acepeda/public/A_GAMEJAM_SHEEPLE/dontbeasheep/Saved/Collections/', and we were unable to create a new request.
-[2017.08.26-05.38.26:881][  1]LogDirectoryWatcher: A directory notification failed for 'I:/acepeda/public/A_GAMEJAM_SHEEPLE/dontbeasheep/Content/Developers/Student/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
-[2017.08.26-05.38.26:882][  1]LogDirectoryWatcher: A directory notification failed for 'I:/acepeda/public/A_GAMEJAM_SHEEPLE/dontbeasheep/Content/Developers/Student/Collections/', and we were unable to create a new request.
-[2017.08.26-05.38.26:882][  1]LogDirectoryWatcher: A directory notification failed for 'I:/acepeda/public/A_GAMEJAM_SHEEPLE/dontbeasheep/Content/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
-[2017.08.26-05.38.26:883][  1]LogDirectoryWatcher: A directory notification failed for 'I:/acepeda/public/A_GAMEJAM_SHEEPLE/dontbeasheep/Content/Collections/', and we were unable to create a new request.
-[2017.08.26-05.38.27:958][ 78]LogSlate: Took 0.000235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.08.26-05.38.40:141][303]LogTemp: Repeting last play command: Selected Viewport
-[2017.08.26-05.38.40:157][303]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.08.26-05.38.40:158][303]PIE: New page: PIE session: Untitled_1 (Aug 25, 2017, 3:38:40 PM)
-[2017.08.26-05.38.40:158][303]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2017.08.26-05.38.40:161][303]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003323s)
-[2017.08.26-05.38.40:162][303]LogAIModule: Creating AISystem for world Untitled_1
-[2017.08.26-05.38.40:162][303]LogPlayLevel: PIE: World Init took: (0.000846s)
-[2017.08.26-05.38.40:162][303]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.004475s)
-[2017.08.26-05.38.40:174][303]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.08.26-05.38.40:180][303]LogInit: FAudioDevice initialized.
-[2017.08.26-05.38.40:268][303]LogLoad: Game class is 'storyBook_gamemode_C'
-[2017.08.26-05.38.40:270][303]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.08.25-22.38.40
-[2017.08.26-05.38.40:270][303]LogWorld: Bringing up level for play took: 0.000806
-[2017.08.26-05.38.40:354][303]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0016 seconds. Added 11 classes and 0 folders.
-[2017.08.26-05.38.40:356][303]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.274
-[2017.08.26-05.38.52:552][613]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.08.26-05.38.52:552][613]PIE: New page: PIE session: Untitled_1 (Aug 25, 2017, 3:38:52 PM)
-[2017.08.26-05.38.52:552][613]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2017.08.26-05.38.52:554][613]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002328s)
-[2017.08.26-05.38.52:555][613]LogAIModule: Creating AISystem for world Untitled_1
-[2017.08.26-05.38.52:555][613]LogPlayLevel: PIE: World Init took: (0.000863s)
-[2017.08.26-05.38.52:555][613]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003366s)
-[2017.08.26-05.38.52:566][613]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.08.26-05.38.52:573][613]LogInit: FAudioDevice initialized.
-[2017.08.26-05.38.52:606][613]LogLoad: Game class is 'storyBook_gamemode_C'
-[2017.08.26-05.38.52:608][613]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.08.25-22.38.52
-[2017.08.26-05.38.52:608][613]LogWorld: Bringing up level for play took: 0.000915
-[2017.08.26-05.38.52:612][613]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.017
-[2017.08.26-05.38.52:635][613]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:2609).
-[2017.08.26-05.39.21:139][956]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.08.26-05.39.21:237][956]LogAIModule: Creating AISystem for world DontbeaSheep
-[2017.08.26-05.39.21:253][956]Cmd: MAP LOAD FILE="I:/acepeda/public/A_GAMEJAM_SHEEPLE/dontbeasheep/Content/DontbeaSheep.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.08.26-05.39.21:253][956]LightingResults: New page: Lighting Build
-[2017.08.26-05.39.21:255][956]LoadErrors: New page: Loading map: DontbeaSheep.umap
-[2017.08.26-05.39.21:255][956]MapCheck: New page: Map Check
-[2017.08.26-05.39.21:255][956]LightingResults: New page: Lighting Build
-[2017.08.26-05.39.21:271][956]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.08.26-05.39.21:297][956]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.08.26-05.39.21:342][956]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.438ms to complete.
-[2017.08.26-05.39.21:342][956]LogFileHelpers: Loading map 'DontbeaSheep' took 0.090
-[2017.08.26-05.39.24:737][346]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.08.26-05.39.24:751][346]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.08.26-05.39.24:751][346]PIE: New page: PIE session: DontbeaSheep (Aug 25, 2017, 3:39:24 PM)
-[2017.08.26-05.39.24:751][346]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_DontbeaSheep
-[2017.08.26-05.39.24:756][346]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004915s)
-[2017.08.26-05.39.24:756][346]LogAIModule: Creating AISystem for world DontbeaSheep
-[2017.08.26-05.39.24:756][346]LogPlayLevel: PIE: World Init took: (0.000612s)
-[2017.08.26-05.39.24:757][346]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DontbeaSheep.DontbeaSheep to /Game/UEDPIE_0_DontbeaSheep.DontbeaSheep (0.005804s)
-[2017.08.26-05.39.24:767][346]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.08.26-05.39.24:773][346]LogInit: FAudioDevice initialized.
-[2017.08.26-05.39.24:806][346]LogLoad: Game class is 'storyBook_gamemode_C'
-[2017.08.26-05.39.24:807][346]LogWorld: Bringing World /Game/UEDPIE_0_DontbeaSheep.DontbeaSheep up for play (max tick rate 0) at 2017.08.25-22.39.24
-[2017.08.26-05.39.24:807][346]LogWorld: Bringing up level for play took: 0.000994
-[2017.08.26-05.39.24:812][346]PIE: Info Play in editor start time for /Game/UEDPIE_0_DontbeaSheep 0.185
-[2017.08.26-05.39.31:718][ 95]MapCheck: New page: Map Check
-[2017.08.26-05.39.31:738][ 95]Cmd: MAP REBUILD ALLVISIBLE
-[2017.08.26-05.39.31:739][ 95]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2017.08.26-05.39.31:860][ 95]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
-[2017.08.26-05.39.31:862][ 95]LogTemp:Display: Added material ShaderMap 0x0000000022DA0100 with Material 0x0000000049187D00 to ShaderMapsBeingCompiled
-[2017.08.26-05.39.31:867][ 95]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy WorldGridMaterial, GameThreadShaderMap 0x0000000022DA0100
-[2017.08.26-05.39.31:870][ 95]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
-[2017.08.26-05.39.31:871][ 95]LogTemp:Display: Added material ShaderMap 0x0000000045897200 with Material 0x0000000049187700 to ShaderMapsBeingCompiled
-[2017.08.26-05.39.31:873][ 95]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy DefaultMaterial, GameThreadShaderMap 0x0000000045897200
-[2017.08.26-05.39.31:875][ 95]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
-[2017.08.26-05.39.31:876][ 95]LogTemp:Display: Added material ShaderMap 0x0000000045896B00 with Material 0x0000000049186E00 to ShaderMapsBeingCompiled
-[2017.08.26-05.39.31:878][ 95]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, GameThreadShaderMap 0x0000000045896B00
-[2017.08.26-05.39.31:881][ 95]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
-[2017.08.26-05.39.31:882][ 95]LogTemp:Display: Added material ShaderMap 0x000000002CA77580 with Material 0x0000000049187100 to ShaderMapsBeingCompiled
-[2017.08.26-05.39.31:884][ 95]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy BasicShapeMaterial, GameThreadShaderMap 0x000000002CA77580
-[2017.08.26-05.39.32:236][ 95]LogTemp:Display: Finished compile of shader map 0x000000002CA77580
-[2017.08.26-05.39.32:236][ 95]LogTemp:Display: Shader map FDebugViewModeMaterialProxy BasicShapeMaterial complete, GameThreadShaderMap 0x000000002CA77580, marking material FDebugViewModeMaterialProxy BasicShapeMaterial as finished
-[2017.08.26-05.39.32:236][ 95]LogTemp:Display: Marking material as finished 0x0000000049187100
-[2017.08.26-05.39.32:319][ 95]LogTemp:Display: Finished compile of shader map 0x0000000022DA0100
-[2017.08.26-05.39.32:319][ 95]LogTemp:Display: Shader map FDebugViewModeMaterialProxy WorldGridMaterial complete, GameThreadShaderMap 0x0000000022DA0100, marking material FDebugViewModeMaterialProxy WorldGridMaterial as finished
-[2017.08.26-05.39.32:319][ 95]LogTemp:Display: Marking material as finished 0x0000000049187D00
-[2017.08.26-05.39.32:332][ 95]LogTemp:Display: Finished compile of shader map 0x0000000045897200
-[2017.08.26-05.39.32:332][ 95]LogTemp:Display: Shader map FDebugViewModeMaterialProxy DefaultMaterial complete, GameThreadShaderMap 0x0000000045897200, marking material FDebugViewModeMaterialProxy DefaultMaterial as finished
-[2017.08.26-05.39.32:332][ 95]LogTemp:Display: Marking material as finished 0x0000000049187700
-[2017.08.26-05.39.32:334][ 95]LogTemp:Display: Finished compile of shader map 0x0000000045896B00
-[2017.08.26-05.39.32:334][ 95]LogTemp:Display: Shader map FDebugViewModeMaterialProxy MaterialInstanceDynamic_2 complete, GameThreadShaderMap 0x0000000045896B00, marking material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2 as finished
-[2017.08.26-05.39.32:334][ 95]LogTemp:Display: Marking material as finished 0x0000000049186E00
-[2017.08.26-05.39.32:335][ 95]TextureStreamingBuild:Display: Compiling optional shaders took 0.481 seconds.
-[2017.08.26-05.39.32:347][ 95]LogLevel:Display: Export Material TexCoord Scales took 0.012 seconds.
-[2017.08.26-05.39.32:351][ 95]TextureStreamingBuild:Display: Build Texture Streaming took 0.003 seconds.
-[2017.08.26-05.39.32:362][ 95]LightingResults: New page: Lighting Build - Aug 25, 2017, 3:39:32 PM
-[2017.08.26-05.39.32:440][ 95]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2017.08.26-05.39.32:488][ 95]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2017.08.26-05.39.32:506][ 95]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2017.08.26-05.39.34:078][ 95]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2017.08.26-05.39.34:078][ 95]LogSwarmInterface: [TryOpenConnection] Local Process ID is 69600
-[2017.08.26-05.39.36:577][ 95]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2017.08.26-05.39.36:579][ 95]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2017.08.26-05.39.36:579][ 95]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2017.08.26-05.39.36:579][ 95]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2017.08.26-05.39.36:579][ 95]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2017.08.26-05.39.36:579][ 95]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2017.08.26-05.39.36:734][ 95]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2017.08.26-05.39.36:734][ 95]MapCheck: New page: DontbeaSheep - Aug 25, 2017, 3:39:36 PM
-[2017.08.26-05.39.36:736][ 95]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
-[2017.08.26-05.39.36:786][ 95]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 51.832ms to complete.
-[2017.08.26-05.39.36:806][ 95]LogEditorBuildUtils: Build time 0:05
-[2017.08.26-05.39.36:821][ 95]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
-[2017.08.26-05.39.36:822][ 95]LogTemp:Display: Added material ShaderMap 0x0000000048FECB80 with Material 0x0000000049186200 to ShaderMapsBeingCompiled
-[2017.08.26-05.39.36:826][ 95]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer DefaultMaterial, GameThreadShaderMap 0x0000000048FECB80
-[2017.08.26-05.39.36:829][ 95]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
-[2017.08.26-05.39.36:829][ 95]LogTemp:Display: Added material ShaderMap 0x0000000046D37580 with Material 0x0000000049185900 to ShaderMapsBeingCompiled
-[2017.08.26-05.39.36:832][ 95]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer DefaultMaterial, GameThreadShaderMap 0x0000000046D37580
-[2017.08.26-05.39.36:888][ 96]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_2, compiling. 
-[2017.08.26-05.39.36:889][ 96]LogTemp:Display: Added material ShaderMap 0x00000000238C7900 with Material 0x000000002CC0F400 to ShaderMapsBeingCompiled
-[2017.08.26-05.39.36:891][ 96]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer MaterialInstanceDynamic_2, GameThreadShaderMap 0x00000000238C7900
-[2017.08.26-05.39.36:893][ 96]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_2, compiling. 
-[2017.08.26-05.39.36:894][ 96]LogTemp:Display: Added material ShaderMap 0x00000000238C5600 with Material 0x000000002CC0F100 to ShaderMapsBeingCompiled
-[2017.08.26-05.39.36:898][ 96]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer MaterialInstanceDynamic_2, GameThreadShaderMap 0x00000000238C5600
-[2017.08.26-05.39.36:963][ 97]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
-[2017.08.26-05.39.36:965][ 97]LogTemp:Display: Added material ShaderMap 0x000000002CAC0B80 with Material 0x000000002CC0C700 to ShaderMapsBeingCompiled
-[2017.08.26-05.39.36:969][ 97]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer BasicShapeMaterial, GameThreadShaderMap 0x000000002CAC0B80
-[2017.08.26-05.39.36:973][ 97]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
-[2017.08.26-05.39.36:974][ 97]LogTemp:Display: Added material ShaderMap 0x000000002CAC3200 with Material 0x0000000023F73700 to ShaderMapsBeingCompiled
-[2017.08.26-05.39.36:978][ 97]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer BasicShapeMaterial, GameThreadShaderMap 0x000000002CAC3200
-[2017.08.26-05.39.37:036][ 98]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
-[2017.08.26-05.39.37:038][ 98]LogTemp:Display: Added material ShaderMap 0x00000000238CBC80 with Material 0x00000000458D0700 to ShaderMapsBeingCompiled
-[2017.08.26-05.39.37:042][ 98]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer WorldGridMaterial, GameThreadShaderMap 0x00000000238CBC80
-[2017.08.26-05.39.37:047][ 98]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
-[2017.08.26-05.39.37:048][ 98]LogTemp:Display: Added material ShaderMap 0x00000000238C9280 with Material 0x00000000458D3100 to ShaderMapsBeingCompiled
-[2017.08.26-05.39.37:053][ 98]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer WorldGridMaterial, GameThreadShaderMap 0x00000000238C9280
-[2017.08.26-05.39.37:976][ 99]LogTemp:Display: Finished compile of shader map 0x00000000238C7900
-[2017.08.26-05.39.37:976][ 99]LogTemp:Display: Shader map FLightmassMaterialRenderer MaterialInstanceDynamic_2 complete, GameThreadShaderMap 0x00000000238C7900, marking material FLightmassMaterialRenderer MaterialInstanceDynamic_2 as finished
-[2017.08.26-05.39.37:976][ 99]LogTemp:Display: Marking material as finished 0x000000002CC0F400
-[2017.08.26-05.39.37:978][ 99]LogTemp:Display: Finished compile of shader map 0x00000000238C5600
-[2017.08.26-05.39.37:978][ 99]LogTemp:Display: Shader map FLightmassMaterialRenderer MaterialInstanceDynamic_2 complete, GameThreadShaderMap 0x00000000238C5600, marking material FLightmassMaterialRenderer MaterialInstanceDynamic_2 as finished
-[2017.08.26-05.39.37:978][ 99]LogTemp:Display: Marking material as finished 0x000000002CC0F100
-[2017.08.26-05.39.37:980][ 99]LogTemp:Display: Finished compile of shader map 0x000000002CAC0B80
-[2017.08.26-05.39.37:980][ 99]LogTemp:Display: Shader map FLightmassMaterialRenderer BasicShapeMaterial complete, GameThreadShaderMap 0x000000002CAC0B80, marking material FLightmassMaterialRenderer BasicShapeMaterial as finished
-[2017.08.26-05.39.37:980][ 99]LogTemp:Display: Marking material as finished 0x000000002CC0C700
-[2017.08.26-05.39.37:982][ 99]LogTemp:Display: Finished compile of shader map 0x0000000046D37580
-[2017.08.26-05.39.37:982][ 99]LogTemp:Display: Shader map FLightmassMaterialRenderer DefaultMaterial complete, GameThreadShaderMap 0x0000000046D37580, marking material FLightmassMaterialRenderer DefaultMaterial as finished
-[2017.08.26-05.39.37:982][ 99]LogTemp:Display: Marking material as finished 0x0000000049185900
-[2017.08.26-05.39.37:984][ 99]LogTemp:Display: Finished compile of shader map 0x0000000048FECB80
-[2017.08.26-05.39.37:984][ 99]LogTemp:Display: Shader map FLightmassMaterialRenderer DefaultMaterial complete, GameThreadShaderMap 0x0000000048FECB80, marking material FLightmassMaterialRenderer DefaultMaterial as finished
-[2017.08.26-05.39.37:984][ 99]LogTemp:Display: Marking material as finished 0x0000000049186200
-[2017.08.26-05.39.37:986][ 99]LogTemp:Display: Finished compile of shader map 0x000000002CAC3200
-[2017.08.26-05.39.37:986][ 99]LogTemp:Display: Shader map FLightmassMaterialRenderer BasicShapeMaterial complete, GameThreadShaderMap 0x000000002CAC3200, marking material FLightmassMaterialRenderer BasicShapeMaterial as finished
-[2017.08.26-05.39.37:986][ 99]LogTemp:Display: Marking material as finished 0x0000000023F73700
-[2017.08.26-05.39.37:989][ 99]LogTemp:Display: Finished compile of shader map 0x00000000238CBC80
-[2017.08.26-05.39.37:989][ 99]LogTemp:Display: Shader map FLightmassMaterialRenderer WorldGridMaterial complete, GameThreadShaderMap 0x00000000238CBC80, marking material FLightmassMaterialRenderer WorldGridMaterial as finished
-[2017.08.26-05.39.37:989][ 99]LogTemp:Display: Marking material as finished 0x00000000458D0700
-[2017.08.26-05.39.37:992][ 99]LogTemp:Display: Finished compile of shader map 0x00000000238C9280
-[2017.08.26-05.39.37:992][ 99]LogTemp:Display: Shader map FLightmassMaterialRenderer WorldGridMaterial complete, GameThreadShaderMap 0x00000000238C9280, marking material FLightmassMaterialRenderer WorldGridMaterial as finished
-[2017.08.26-05.39.37:992][ 99]LogTemp:Display: Marking material as finished 0x00000000458D3100
-[2017.08.26-05.39.39:736][154]Job is a success!
-[2017.08.26-05.39.39:900][155]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256) - 81 MB total VRAM
-[2017.08.26-05.39.39:900][155]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256) - 81 MB total VRAM
-[2017.08.26-05.39.39:900][155]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256) - 81 MB total VRAM
-[2017.08.26-05.39.39:900][155]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256) - 81 MB total VRAM
-[2017.08.26-05.39.39:900][155]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64) - 81 MB total VRAM
-[2017.08.26-05.39.39:900][155]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64) - 81 MB total VRAM
-[2017.08.26-05.39.39:900][155]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 32X32) - 81 MB total VRAM
-[2017.08.26-05.39.39:900][155]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 256X64) - 81 MB total VRAM
-[2017.08.26-05.39.39:900][155]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 256X128) - 81 MB total VRAM
-[2017.08.26-05.39.39:921][155]Lightmass on 2032-01-265-21: 870 ms total, 131 ms importing, 12 ms setup, 269 ms photons, 433 ms processing, 0 ms extra exporting [22/22 mappings]. Threads: 2.86 sec total, 627 ms processing.
-[2017.08.26-05.39.39:943][155]LogStaticLightingSystem: Illumination: 7.53 sec (39 ms encoding lightmaps, 10 ms encoding shadowmaps)
-[2017.08.26-05.39.39:943][155]LogStaticLightingSystem: Lightmap texture memory:  0.3 MB (0.1 MB streaming, 0.1 MB non-streaming), 6 textures
-[2017.08.26-05.39.39:943][155]LogStaticLightingSystem: Shadowmap texture memory: 0.1 MB (0.0 MB streaming, 0.0 MB non-streaming), 3 textures
-[2017.08.26-05.39.40:587][155]DumpUnbuiltLightIteractions
-[2017.08.26-05.39.40:587][155]Lights with unbuilt interactions: 0
-[2017.08.26-05.39.40:587][155]
-[2017.08.26-05.39.40:587][155]Primitives with unbuilt interactions: 0
-[2017.08.26-05.39.40:611][156]Cmd: MAP CHECK NOTIFYRESULTS
-[2017.08.26-05.39.40:611][156]MapCheck: New page: DontbeaSheep - Aug 25, 2017, 3:39:40 PM
-[2017.08.26-05.39.40:657][156]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 46.2ms to complete.
-[2017.08.26-05.39.46:269][727]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.08.26-05.39.46:285][727]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.08.26-05.39.46:285][727]PIE: New page: PIE session: DontbeaSheep (Aug 25, 2017, 3:39:46 PM)
-[2017.08.26-05.39.46:285][727]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_DontbeaSheep
-[2017.08.26-05.39.46:290][727]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004633s)
-[2017.08.26-05.39.46:290][727]LogAIModule: Creating AISystem for world DontbeaSheep
-[2017.08.26-05.39.46:290][727]LogPlayLevel: PIE: World Init took: (0.000654s)
-[2017.08.26-05.39.46:290][727]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DontbeaSheep.DontbeaSheep to /Game/UEDPIE_0_DontbeaSheep.DontbeaSheep (0.005475s)
-[2017.08.26-05.39.46:299][727]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.08.26-05.39.46:305][727]LogInit: FAudioDevice initialized.
-[2017.08.26-05.39.46:340][727]LogLoad: Game class is 'storyBook_gamemode_C'
-[2017.08.26-05.39.46:342][727]LogWorld: Bringing World /Game/UEDPIE_0_DontbeaSheep.DontbeaSheep up for play (max tick rate 0) at 2017.08.25-22.39.46
-[2017.08.26-05.39.46:342][727]LogWorld: Bringing up level for play took: 0.000984
-[2017.08.26-05.39.46:347][727]PIE: Info Play in editor start time for /Game/UEDPIE_0_DontbeaSheep -0.28
-[2017.08.26-05.42.10:021][382]Cmd: QUIT_EDITOR
-[2017.08.26-05.42.10:087][382]LogExit: Preparing to exit.
-[2017.08.26-05.42.10:267][382]LogExit: Editor shut down
-[2017.08.26-05.42.10:267][382]LogExit: Transaction tracking system shut down
-[2017.08.26-05.42.10:310][382]LogObj: Freed 0b from 0 cluster array pools.
-[2017.08.26-05.42.10:310][382]LogExit: Object subsystem successfully closed.
-[2017.08.26-05.42.10:321][382]LogD3D11RHI: Shutdown
-[2017.08.26-05.42.10:322][382]LogD3D11RHI: CleanupD3DDevice
-[2017.08.26-05.42.10:374][382]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.08.26-05.42.10:392][382]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (502)
-[2017.08.26-05.42.10:392][382]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (500)
-[2017.08.26-05.42.10:392][382]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
-[2017.08.26-05.42.10:392][382]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
-[2017.08.26-05.42.10:392][382]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
-[2017.08.26-05.42.10:392][382]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
-[2017.08.26-05.42.10:392][382]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
-[2017.08.26-05.42.10:392][382]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
-[2017.08.26-05.42.10:392][382]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
-[2017.08.26-05.42.10:392][382]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
-[2017.08.26-05.42.10:393][382]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
-[2017.08.26-05.42.10:393][382]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
-[2017.08.26-05.42.10:393][382]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
-[2017.08.26-05.42.10:393][382]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
-[2017.08.26-05.42.10:393][382]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
-[2017.08.26-05.42.10:393][382]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
-[2017.08.26-05.42.10:393][382]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
-[2017.08.26-05.42.10:393][382]LogModuleManager: Shutting down and abandoning module BspMode (470)
-[2017.08.26-05.42.10:393][382]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
-[2017.08.26-05.42.10:393][382]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
-[2017.08.26-05.42.10:393][382]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
-[2017.08.26-05.42.10:393][382]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
-[2017.08.26-05.42.10:393][382]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
-[2017.08.26-05.42.10:393][382]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
-[2017.08.26-05.42.10:393][382]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
-[2017.08.26-05.42.10:393][382]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
-[2017.08.26-05.42.10:393][382]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
-[2017.08.26-05.42.10:393][382]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
-[2017.08.26-05.42.10:393][382]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
-[2017.08.26-05.42.10:393][382]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
-[2017.08.26-05.42.10:393][382]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
-[2017.08.26-05.42.10:393][382]LogModuleManager: Shutting down and abandoning module Media (443)
-[2017.08.26-05.42.10:393][382]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
-[2017.08.26-05.42.10:393][382]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
-[2017.08.26-05.42.10:393][382]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
-[2017.08.26-05.42.10:393][382]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
-[2017.08.26-05.42.10:393][382]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
-[2017.08.26-05.42.10:393][382]LogModuleManager: Shutting down and abandoning module SessionServices (430)
-[2017.08.26-05.42.10:393][382]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
-[2017.08.26-05.42.10:393][382]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
-[2017.08.26-05.42.10:393][382]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
-[2017.08.26-05.42.10:393][382]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
-[2017.08.26-05.42.10:393][382]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
-[2017.08.26-05.42.10:393][382]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
-[2017.08.26-05.42.10:393][382]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
-[2017.08.26-05.42.10:393][382]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
-[2017.08.26-05.42.10:393][382]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
-[2017.08.26-05.42.10:393][382]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
-[2017.08.26-05.42.10:950][382]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
-[2017.08.26-05.42.10:950][382]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
-[2017.08.26-05.42.10:950][382]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
-[2017.08.26-05.42.10:950][382]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
-[2017.08.26-05.42.10:950][382]LogModuleManager: Shutting down and abandoning module MergeActors (400)
-[2017.08.26-05.42.10:950][382]LogModuleManager: Shutting down and abandoning module SizeMap (398)
-[2017.08.26-05.42.10:950][382]LogModuleManager: Shutting down and abandoning module TreeMap (396)
-[2017.08.26-05.42.10:950][382]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
-[2017.08.26-05.42.10:950][382]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
-[2017.08.26-05.42.10:950][382]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
-[2017.08.26-05.42.10:950][382]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
-[2017.08.26-05.42.10:950][382]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
-[2017.08.26-05.42.10:950][382]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
-[2017.08.26-05.42.10:950][382]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
-[2017.08.26-05.42.10:950][382]LogModuleManager: Shutting down and abandoning module XmlParser (380)
-[2017.08.26-05.42.10:950][382]LogModuleManager: Shutting down and abandoning module Blutility (378)
-[2017.08.26-05.42.10:950][382]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
-[2017.08.26-05.42.10:950][382]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
-[2017.08.26-05.42.10:951][382]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
-[2017.08.26-05.42.10:951][382]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
-[2017.08.26-05.42.10:951][382]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
-[2017.08.26-05.42.10:951][382]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
-[2017.08.26-05.42.10:951][382]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
-[2017.08.26-05.42.10:951][382]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
-[2017.08.26-05.42.10:951][382]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
-[2017.08.26-05.42.11:001][382]LogModuleManager: Shutting down and abandoning module AutomationController (358)
-[2017.08.26-05.42.11:001][382]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
-[2017.08.26-05.42.11:001][382]LogModuleManager: Shutting down and abandoning module Layers (354)
-[2017.08.26-05.42.11:001][382]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
-[2017.08.26-05.42.11:001][382]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
-[2017.08.26-05.42.11:001][382]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
-[2017.08.26-05.42.11:001][382]LogModuleManager: Shutting down and abandoning module Persona (346)
-[2017.08.26-05.42.11:001][382]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
-[2017.08.26-05.42.11:001][382]LogModuleManager: Shutting down and abandoning module Kismet (342)
-[2017.08.26-05.42.11:001][382]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
-[2017.08.26-05.42.11:002][382]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
-[2017.08.26-05.42.11:002][382]LogModuleManager: Shutting down and abandoning module Toolbox (336)
-[2017.08.26-05.42.11:002][382]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
-[2017.08.26-05.42.11:002][382]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
-[2017.08.26-05.42.11:002][382]LogModuleManager: Shutting down and abandoning module OutputLog (330)
-[2017.08.26-05.42.11:002][382]LogModuleManager: Shutting down and abandoning module GammaUI (328)
-[2017.08.26-05.42.11:002][382]LogModuleManager: Shutting down and abandoning module Documentation (326)
-[2017.08.26-05.42.11:002][382]LogModuleManager: Shutting down and abandoning module Niagara (324)
-[2017.08.26-05.42.11:002][382]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
-[2017.08.26-05.42.11:002][382]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
-[2017.08.26-05.42.11:002][382]LogModuleManager: Shutting down and abandoning module PortalServices (318)
-[2017.08.26-05.42.11:002][382]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
-[2017.08.26-05.42.11:002][382]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
-[2017.08.26-05.42.11:002][382]LogModuleManager: Shutting down and abandoning module AIModule (312)
-[2017.08.26-05.42.11:002][382]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
-[2017.08.26-05.42.11:002][382]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
-[2017.08.26-05.42.11:002][382]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
-[2017.08.26-05.42.11:172][382]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
-[2017.08.26-05.42.11:172][382]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
-[2017.08.26-05.42.11:172][382]LogModuleManager: Shutting down and abandoning module SteamVR (300)
-[2017.08.26-05.42.11:172][382]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
-[2017.08.26-05.42.11:172][382]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
-[2017.08.26-05.42.11:172][382]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
-[2017.08.26-05.42.11:172][382]LogModuleManager: Shutting down and abandoning module OculusInput (292)
-[2017.08.26-05.42.11:172][382]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
-[2017.08.26-05.42.11:172][382]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
-[2017.08.26-05.42.11:172][382]LogModuleManager: Shutting down and abandoning module CableComponent (286)
-[2017.08.26-05.42.11:172][382]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
-[2017.08.26-05.42.11:172][382]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
-[2017.08.26-05.42.11:172][382]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
-[2017.08.26-05.42.11:172][382]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
-[2017.08.26-05.42.11:172][382]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
-[2017.08.26-05.42.11:172][382]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
-[2017.08.26-05.42.11:172][382]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
-[2017.08.26-05.42.11:172][382]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
-[2017.08.26-05.42.11:172][382]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
-[2017.08.26-05.42.11:172][382]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
-[2017.08.26-05.42.11:172][382]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
-[2017.08.26-05.42.11:172][382]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
-[2017.08.26-05.42.11:172][382]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
-[2017.08.26-05.42.11:172][382]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
-[2017.08.26-05.42.11:172][382]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
-[2017.08.26-05.42.11:172][382]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
-[2017.08.26-05.42.11:172][382]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
-[2017.08.26-05.42.11:172][382]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
-[2017.08.26-05.42.11:172][382]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
-[2017.08.26-05.42.11:172][382]LogModuleManager: Shutting down and abandoning module SourceControl (245)
-[2017.08.26-05.42.11:172][382]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
-[2017.08.26-05.42.11:172][382]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
-[2017.08.26-05.42.11:172][382]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
-[2017.08.26-05.42.11:172][382]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
-[2017.08.26-05.42.11:172][382]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
-[2017.08.26-05.42.11:172][382]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
-[2017.08.26-05.42.11:173][382]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
-[2017.08.26-05.42.11:173][382]LogModuleManager: Shutting down and abandoning module MainFrame (230)
-[2017.08.26-05.42.11:173][382]LogModuleManager: Shutting down and abandoning module HotReload (229)
-[2017.08.26-05.42.11:173][382]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
-[2017.08.26-05.42.11:174][382]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
-[2017.08.26-05.42.11:174][382]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
-[2017.08.26-05.42.11:174][382]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
-[2017.08.26-05.42.11:174][382]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
-[2017.08.26-05.42.11:274][382]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
-[2017.08.26-05.42.11:374][382]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
-[2017.08.26-05.42.11:374][382]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
-[2017.08.26-05.42.11:374][382]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
-[2017.08.26-05.42.11:374][382]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
-[2017.08.26-05.42.11:374][382]LogModuleManager: Shutting down and abandoning module Paper2D (204)
-[2017.08.26-05.42.11:374][382]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
-[2017.08.26-05.42.11:374][382]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
-[2017.08.26-05.42.11:374][382]LogModuleManager: Shutting down and abandoning module MfMedia (198)
-[2017.08.26-05.42.11:374][382]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
-[2017.08.26-05.42.11:374][382]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
-[2017.08.26-05.42.11:374][382]LogModuleManager: Shutting down and abandoning module VREditor (192)
-[2017.08.26-05.42.11:374][382]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
-[2017.08.26-05.42.11:374][382]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
-[2017.08.26-05.42.11:374][382]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
-[2017.08.26-05.42.11:374][382]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
-[2017.08.26-05.42.11:374][382]LogModuleManager: Shutting down and abandoning module UMG (182)
-[2017.08.26-05.42.11:374][382]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
-[2017.08.26-05.42.11:374][382]LogModuleManager: Shutting down and abandoning module Sequencer (180)
-[2017.08.26-05.42.11:374][382]LogModuleManager: Shutting down and abandoning module AssetTools (178)
-[2017.08.26-05.42.11:374][382]LogModuleManager: Shutting down and abandoning module MessageLog (177)
-[2017.08.26-05.42.11:374][382]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
-[2017.08.26-05.42.11:374][382]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
-[2017.08.26-05.42.11:374][382]LogModuleManager: Shutting down and abandoning module Slate (168)
-[2017.08.26-05.42.11:374][382]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
-[2017.08.26-05.42.11:377][382]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
-[2017.08.26-05.42.11:377][382]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
-[2017.08.26-05.42.11:377][382]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
-[2017.08.26-05.42.11:377][382]LogModuleManager: Shutting down and abandoning module Networking (158)
-[2017.08.26-05.42.11:377][382]LogModuleManager: Shutting down and abandoning module Core (154)
-[2017.08.26-05.42.11:377][382]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
-[2017.08.26-05.42.12:807][382]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.08.26-05.42.12:807][382]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.08.26-05.42.12:807][382]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
-[2017.08.26-05.42.12:807][382]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
-[2017.08.26-05.42.12:807][382]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
-[2017.08.26-05.42.12:807][382]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
-[2017.08.26-05.42.12:807][382]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
-[2017.08.26-05.42.12:807][382]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
-[2017.08.26-05.42.12:807][382]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
-[2017.08.26-05.42.12:807][382]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
-[2017.08.26-05.42.12:807][382]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
-[2017.08.26-05.42.12:856][382]LogDerivedDataCache: Shutdown
-[2017.08.26-05.42.12:856][382]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
-[2017.08.26-05.42.12:856][382]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
-[2017.08.26-05.42.12:856][382]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
-[2017.08.26-05.42.12:856][382]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
-[2017.08.26-05.42.12:856][382]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
-[2017.08.26-05.42.12:856][382]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
-[2017.08.26-05.42.12:856][382]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
-[2017.08.26-05.42.12:856][382]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
-[2017.08.26-05.42.12:856][382]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
-[2017.08.26-05.42.12:856][382]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
-[2017.08.26-05.42.12:856][382]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
-[2017.08.26-05.42.12:856][382]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
-[2017.08.26-05.42.12:856][382]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
-[2017.08.26-05.42.12:856][382]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
-[2017.08.26-05.42.12:856][382]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
-[2017.08.26-05.42.12:856][382]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
-[2017.08.26-05.42.12:856][382]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
-[2017.08.26-05.42.12:856][382]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
-[2017.08.26-05.42.12:857][382]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
-[2017.08.26-05.42.12:857][382]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
-[2017.08.26-05.42.12:857][382]LogModuleManager: Shutting down and abandoning module Messaging (93)
-[2017.08.26-05.42.12:857][382]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
-[2017.08.26-05.42.12:857][382]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
-[2017.08.26-05.42.12:857][382]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
-[2017.08.26-05.42.12:857][382]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
-[2017.08.26-05.42.12:857][382]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
-[2017.08.26-05.42.12:857][382]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
-[2017.08.26-05.42.12:857][382]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
-[2017.08.26-05.42.12:857][382]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
-[2017.08.26-05.42.12:857][382]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
-[2017.08.26-05.42.12:857][382]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
-[2017.08.26-05.42.12:857][382]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
-[2017.08.26-05.42.12:857][382]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
-[2017.08.26-05.42.12:857][382]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
-[2017.08.26-05.42.12:857][382]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
-[2017.08.26-05.42.12:857][382]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
-[2017.08.26-05.42.12:857][382]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
-[2017.08.26-05.42.12:857][382]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
-[2017.08.26-05.42.12:857][382]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
-[2017.08.26-05.42.12:857][382]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
-[2017.08.26-05.42.12:857][382]LogModuleManager: Shutting down and abandoning module InputCore (52)
-[2017.08.26-05.42.12:857][382]LogModuleManager: Shutting down and abandoning module Settings (50)
-[2017.08.26-05.42.12:857][382]LogModuleManager: Shutting down and abandoning module OculusRift (48)
-[2017.08.26-05.42.12:857][382]LogModuleManager: Shutting down and abandoning module GearVR (46)
-[2017.08.26-05.42.12:857][382]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
-[2017.08.26-05.42.12:857][382]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
-[2017.08.26-05.42.12:857][382]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
-[2017.08.26-05.42.12:857][382]LogOnline:Display: Unloading online subsystem: NULL
-[2017.08.26-05.42.12:857][382]LogModuleManager: Shutting down and abandoning module XMPP (37)
-[2017.08.26-05.42.12:857][382]LogModuleManager: Shutting down and abandoning module HTTP (35)
-[2017.08.26-05.42.12:857][382]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.08.26-05.42.12:857][382]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B756B3964-4B32-A386-63FC-CA914CDF49B6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.3-3450819%2B%2B%2BUE4%2BRelease-4.15&UserID=64946cf24430d8049525fa84209f9f15%7Ce3df6859f17142b9a046d8d94df24ceb%7C60eca04b-74a2-4252-921c-349d871aa5d9&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.08.26-05.42.12:869][382]LogModuleManager: Shutting down and abandoning module SSL (34)
-[2017.08.26-05.42.12:870][382]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
-[2017.08.26-05.42.12:870][382]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
-[2017.08.26-05.42.12:870][382]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
-[2017.08.26-05.42.12:870][382]LogModuleManager: Shutting down and abandoning module Landscape (24)
-[2017.08.26-05.42.12:870][382]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
-[2017.08.26-05.42.12:871][382]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
-[2017.08.26-05.42.12:871][382]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
-[2017.08.26-05.42.12:871][382]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
-[2017.08.26-05.42.12:871][382]LogModuleManager: Shutting down and abandoning module Renderer (14)
-[2017.08.26-05.42.12:871][382]LogModuleManager: Shutting down and abandoning module Engine (12)
-[2017.08.26-05.42.12:871][382]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
-[2017.08.26-05.42.12:871][382]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
-[2017.08.26-05.42.12:871][382]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2017.08.26-05.42.12:871][382]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2017.08.26-05.42.12:871][382]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2017.08.26-05.42.12:872][382]LogExit: Exiting.
-[2017.08.26-05.42.13:190][382]Log file closed, 08/25/17 22:42:13
+[2017.08.26-11.05.07:655][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.26-11.05.07:655][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.26-11.05.07:678][  0]LogInit: Computer: CHRIS_JUSTO
+[2017.08.26-11.05.07:678][  0]LogInit: User: Chris
+[2017.08.26-11.05.07:678][  0]LogInit: CPU Page size=65536, Cores=2
+[2017.08.26-11.05.07:678][  0]LogInit: High frequency timer resolution =2.533199 MHz
+[2017.08.26-11.05.07:678][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.08.26-11.05.07:678][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.26-11.05.07:678][  0]LogMemory: Process Physical Memory: 262.93 MB used, 262.93 MB peak
+[2017.08.26-11.05.07:678][  0]LogMemory: Process Virtual Memory: 262.36 MB used, 262.36 MB peak
+[2017.08.26-11.05.07:678][  0]LogMemory: Physical Memory: 4419.86 MB used,  3655.09 MB free, 8074.95 MB total
+[2017.08.26-11.05.07:678][  0]LogMemory: Virtual Memory: 643.39 MB used,  3655.09 MB free, 134217728.00 MB total
+[2017.08.26-11.05.08:075][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.08.26-11.05.15:512][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.26-11.05.15:544][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 840M' (Feature Level 11_0)
+[2017.08.26-11.05.15:544][  0]LogD3D11RHI:       2019/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.08.26-11.05.15:552][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics Family' (Feature Level 11_0)
+[2017.08.26-11.05.15:552][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.08.26-11.05.15:553][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.26-11.05.15:554][  0]LogD3D11RHI:       0/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.26-11.05.15:554][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.26-11.05.15:559][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.26-11.05.15:559][  0]LogD3D11RHI:     GPU DeviceId: 0x1341 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.26-11.05.15:559][  0]LogWindows: EnumDisplayDevices:
+[2017.08.26-11.05.15:559][  0]LogWindows:    0. 'Intel(R) HD Graphics Family' (P:1 D:1)
+[2017.08.26-11.05.15:559][  0]LogWindows:    1. 'Intel(R) HD Graphics Family' (P:0 D:1)
+[2017.08.26-11.05.15:559][  0]LogWindows:    2. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2017.08.26-11.05.15:559][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.08.26-11.05.15:559][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 840M
+[2017.08.26-11.05.15:559][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.08.26-11.05.15:559][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.08.26-11.05.15:559][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.26-11.05.15:575][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.26-11.05.15:593][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.08.26-11.05.15:593][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Intermediate/Shaders/WorkingDirectory/6676/).
+[2017.08.26-11.05.15:594][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Chris/AppData/Local/Temp/UnrealShaderWorkingDir/664B0C7842F9E9EA95F9C18D86AA273E/'.
+[2017.08.26-11.05.15:594][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.26-11.05.19:509][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.26-11.05.19:568][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.26-11.05.19:627][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.26-11.05.19:686][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.26-11.05.19:761][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.26-11.05.19:819][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.26-11.05.19:878][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.26-11.05.19:940][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.26-11.05.19:988][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.26-11.05.20:072][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.26-11.05.20:133][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.26-11.05.20:195][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.26-11.05.20:258][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.26-11.05.20:320][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.26-11.05.20:381][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.26-11.05.20:505][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.26-11.05.20:505][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.26-11.05.20:549][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.26-11.05.20:681][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.26-11.05.20:721][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.26-11.05.20:783][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.26-11.05.20:844][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.26-11.05.20:905][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.26-11.05.20:977][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.26-11.05.20:977][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.26-11.05.21:513][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.26-11.05.21:562][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/Chris/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.08.26-11.05.21:562][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Chris/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.08.26-11.05.21:562][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.26-11.05.21:562][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.26-11.05.21:562][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.26-11.05.21:562][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.26-11.05.21:583][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.26-11.05.21:595][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Chris/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.26-11.05.21:605][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.26-11.05.21:628][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.26-11.05.21:628][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.26-11.05.24:383][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.26-11.05.24:387][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.26-11.05.24:645][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.26-11.05.24:694][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.26-11.05.24:748][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.26-11.05.24:748][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.26-11.05.24:748][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.26-11.05.25:675][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: dontbeasheep, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1071483114
+[2017.08.26-11.05.25:728][  0]LogAssetRegistry: FAssetRegistry took 0.0225 seconds to start up
+[2017.08.26-11.05.25:820][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.054267 seconds
+[2017.08.26-11.05.25:826][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.08.26-11.05.25:826][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.08.26-11.05.25:826][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.26-11.05.25:909][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.26-11.05.57:261][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.26-11.05.57:306][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.26-11.05.58:265][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.26-11.05.58:765][  0]SourceControl: Info Source control is disabled
+[2017.08.26-11.05.58:802][  0]SourceControl: Info Source control is disabled
+[2017.08.26-11.05.58:857][  0]SourceControl: Info Source control is disabled
+[2017.08.26-11.05.58:910][  0]SourceControl: Info Source control is disabled
+[2017.08.26-11.06.00:693][  0]LogEngine: Initializing Engine...
+[2017.08.26-11.06.00:694][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.26-11.06.00:923][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.26-11.06.00:923][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.26-11.06.01:067][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.26-11.06.01:076][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.26-11.06.01:366][  0]LogInit: FAudioDevice initialized.
+[2017.08.26-11.06.01:394][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/Chris/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.08.26-11.06.01:400][  0]LogInit: Texture streaming: Enabled
+[2017.08.26-11.06.01:512][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.26-11.06.01:618][  0]LogInit: Transaction tracking system initialized
+[2017.08.26-11.06.02:021][  0]BlueprintLog: New page: Editor Load
+[2017.08.26-11.06.03:217][  0]LocalizationService: Info Localization service is disabled
+[2017.08.26-11.06.04:147][  0]LogConsoleResponse:Display: 
+[2017.08.26-11.06.04:447][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.26-11.06.04:447][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.26-11.06.05:237][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/' took 0.01s
+[2017.08.26-11.06.05:901][  0]SourceControl: Info Source control is disabled
+[2017.08.26-11.06.05:902][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.26-11.06.05:902][  0]LightingResults: New page: Lighting Build
+[2017.08.26-11.06.05:946][  0]MapCheck: New page: Map Check
+[2017.08.26-11.06.05:946][  0]LightingResults: New page: Lighting Build
+[2017.08.26-11.06.06:174][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.08.26-11.06.06:194][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.26-11.06.06:203][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.26-11.06.06:207][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.26-11.06.06:254][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.105ms to complete.
+[2017.08.26-11.06.06:254][  0]LogFileHelpers: Loading map 'Template_Default' took 0.353
+[2017.08.26-11.06.06:618][  0]LogCollectionManager: Loaded 0 collections in 0.001871 seconds
+[2017.08.26-11.06.06:708][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chris/Desktop/gitHUB Project/dontbeasheep/Saved/Collections/' took 0.01s
+[2017.08.26-11.06.06:708][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Developers/Chris/Collections/' took 0.01s
+[2017.08.26-11.06.06:708][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Collections/' took 0.01s
+[2017.08.26-11.06.06:708][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.08.26-11.06.06:719][  0]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 2245 classes and 453 folders.
+[2017.08.26-11.06.06:791][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.08.26-11.06.07:872][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.08.26-11.06.07:920][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.08.26-11.06.08:033][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.26-11.06.10:236][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.08.26-11.06.10:302][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.26-11.06.10:418][  0]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.dontbeasheep
+
+[2017.08.26-11.06.10:418][  0]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.08.26-11.06.10:418][  0]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.15
+
+[2017.08.26-11.06.10:418][  0]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.08.26-11.06.10:418][  0]LogTemp:Display: BranchPath = CHRIS_JUSTO/C/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = CHRIS_JUSTO/C/Program Files/Epic Games/UE_4.15/Engine/Binaries
+
+[2017.08.26-11.06.10:418][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2017.08.26-11.06.10:419][  0]LogLoad: (Engine Initialization) Total time: 65.06 seconds
+[2017.08.26-11.06.10:419][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.19 seconds
+[2017.08.26-11.06.10:419][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.26-11.06.10:419][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.26-11.06.10:440][  0]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Chris\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2017.08.26-11.06.10:440][  0]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.08.26-11.06.10:440][  0]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.08.26-11.06.10:440][  0]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.08.26-11.06.10:440][  0]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.08.26-11.06.10:440][  0]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
+
+[2017.08.26-11.06.10:440][  0]LogOcInput: OculusInput pre-init called
+[2017.08.26-11.06.10:473][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.26-11.06.10:475][  0]LogSlate: Took 0.000357 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.26-11.06.10:480][  0]LogSlate: Took 0.000291 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.26-11.06.10:504][  0]LogSlate: Took 0.018091 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.26-11.06.10:591][  0]LogSlate: Took 0.000330 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.26-11.06.10:668][  0]LogRenderer: Reallocating scene render targets to support 724x480 NumSamples 1 (Frame:2).
+[2017.08.26-11.06.10:808][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/' took 0.36s
+[2017.08.26-11.06.10:934][  2]LogAssetRegistry: Asset discovery search completed in 45.2288 seconds
+[2017.08.26-11.06.10:934][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000012 seconds (found 0 objects)
+[2017.08.26-11.06.10:934][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000038 seconds (updated 0 objects)
+[2017.08.26-11.06.13:463][152]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.26-11.06.27:149][962]AssetReimport: New page: Outstanding source content changes 9:06:27 PM
+[2017.08.26-11.06.27:165][962]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Models/Book.fbx)
+[2017.08.26-11.06.27:420][962]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.08.26-11.06.27:420][962]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.08.26-11.06.27:420][962]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.08.26-11.06.27:420][962]LogFbx: ItemName: NodeAttribute, ItemCount : 5
+[2017.08.26-11.06.27:420][962]LogFbx: ItemName: Model, ItemCount : 6
+[2017.08.26-11.06.27:420][962]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.08.26-11.06.27:420][962]LogFbx: ItemName: Material, ItemCount : 1
+[2017.08.26-11.06.27:420][962]LogFbx: ItemName: AnimationCurveNode, ItemCount : 17
+[2017.08.26-11.06.27:420][962]LogFbx: ItemName: AnimationCurve, ItemCount : 30
+[2017.08.26-11.06.27:420][962]LogFbx: ItemName: Pose, ItemCount : 1
+[2017.08.26-11.06.27:420][962]LogFbx: ItemName: Deformer, ItemCount : 6
+[2017.08.26-11.06.27:452][962]LogFbx: Loading FBX Scene from C:/Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Models/Book.fbx
+[2017.08.26-11.06.27:665][962]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.26-11.06.37:990][962]LogFbx: Loading FBX Scene from C:/Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Models/Book.fbx
+[2017.08.26-11.06.37:999][962]LogFbx: FBX Scene Loaded Succesfully
+[2017.08.26-11.06.38:001][962]LogFbx: =================================================
+[2017.08.26-11.06.38:001][962]LogFbx: Dumping Node START [Books] 
+[2017.08.26-11.06.38:001][962]LogFbx: 	Total Deformer Count 35035344.
+[2017.08.26-11.06.38:001][962]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.26-11.06.38:001][962]LogFbx: =================================================
+[2017.08.26-11.06.38:001][962]LogFbx: 	Attribute () Type (4).
+[2017.08.26-11.06.38:001][962]LogFbx: 		[Node Attribute Child 1] Books (Type Mesh).
+[2017.08.26-11.06.38:001][962]LogFbx: Dumping Node END [Books]
+[2017.08.26-11.06.38:001][962]LogFbx: =================================================
+[2017.08.26-11.06.38:001][962]LogFbx: Dumping Node START [Books] 
+[2017.08.26-11.06.38:001][962]LogFbx: 	Total Deformer Count 35029296.
+[2017.08.26-11.06.38:001][962]LogFbx: 		[Node 1]  (Type Skin).
+[2017.08.26-11.06.38:001][962]LogFbx: =================================================
+[2017.08.26-11.06.38:001][962]LogFbx: 	Attribute () Type (4).
+[2017.08.26-11.06.38:001][962]LogFbx: 		[Node Attribute Child 1] Books (Type Mesh).
+[2017.08.26-11.06.38:001][962]LogFbx: Dumping Node END [Books]
+[2017.08.26-11.06.38:017][962]LogFbx: Valid bind pose for Pose (skinCluster1) - Books
+[2017.08.26-11.06.38:023][962]LogLinker: Can't find file '/Game/Models/Book_Mat'
+[2017.08.26-11.06.38:023][962]LogLinker: Can't find file '/Game/Models/Book_Mat'
+[2017.08.26-11.06.38:099][962]LogMaterial: Missing cached shader map for material Book_Mat, compiling. 
+[2017.08.26-11.06.38:244][962]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.26-11.06.38:274][962]LogMaterial: Missing cached shader map for material Book_Mat, compiling. 
+[2017.08.26-11.06.38:361][962]LogFbx: Triangulating skeletal mesh Books
+[2017.08.26-11.06.38:905][962]LogSkeletalMesh: Section 0: 707 vertices, 5 active bones
+[2017.08.26-11.06.38:916][962]LogSkeletalMesh: Section 0: Material=0, 491 triangles
+[2017.08.26-11.06.39:055][962]LogLinker: Can't find file '/Game/Models/Book_PhysicsAsset'
+[2017.08.26-11.06.39:055][962]LogLinker: Can't find file '/Game/Models/Book_PhysicsAsset'
+[2017.08.26-11.06.39:111][962]LogLinker: Can't find file '/Game/Models/Book_Skeleton'
+[2017.08.26-11.06.39:111][962]LogLinker: Can't find file '/Game/Models/Book_Skeleton'
+[2017.08.26-11.06.39:549][963]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Book" FILE="../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Models/Book.uasset" SILENT=true
+[2017.08.26-11.06.39:588][963]LogSavePackage: Save=36.60ms
+[2017.08.26-11.06.39:588][963]LogSavePackage: Moving '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Saved/Book7C180CFF415A3104727D8E83E26B9594.tmp' to '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Models/Book.uasset'
+[2017.08.26-11.06.39:592][963]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Models/Book.uasset
+[2017.08.26-11.06.42:608][129]AssetReimport: Info Importing new asset /Game/Models/Book.
+[2017.08.26-11.06.45:177][274]LogTemp:Display: Finished compile of shader map 0x0000024E01B43200
+[2017.08.26-11.06.45:177][274]LogTemp:Display: Shader map Book_Mat complete, GameThreadShaderMap 0x0000024E01B43200, marking material Book_Mat as finished
+[2017.08.26-11.06.45:177][274]LogTemp:Display: Marking material as finished 0x0000024E01B46B00
+[2017.08.26-11.06.53:944][789]LogTemp:Display: Finished compile of shader map 0x0000024E01F45600
+[2017.08.26-11.06.53:944][789]LogTemp:Display: Shader map Book_Mat complete, GameThreadShaderMap 0x0000024E01F45600, marking material Book_Mat as finished
+[2017.08.26-11.06.53:944][789]LogTemp:Display: Marking material as finished 0x0000024E01B46B00
+[2017.08.26-11.07.01:399][195]LogAIModule: Creating AISystem for world DontbeaSheep
+[2017.08.26-11.07.04:016][195]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Book_Mat" FILE="../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Models/Book_Mat.uasset" SILENT=true
+[2017.08.26-11.07.04:056][195]LogSavePackage: Save=36.10ms
+[2017.08.26-11.07.04:056][195]LogSavePackage: Moving '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Saved/Book_Mat211ACB914241F644374371807D4776B5.tmp' to '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Models/Book_Mat.uasset'
+[2017.08.26-11.07.04:060][195]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Models/Book_Mat.uasset
+[2017.08.26-11.07.04:061][195]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Book_PhysicsAsset" FILE="../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Models/Book_PhysicsAsset.uasset" SILENT=true
+[2017.08.26-11.07.04:097][195]LogSavePackage: Save=33.40ms
+[2017.08.26-11.07.04:097][195]LogSavePackage: Moving '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Saved/Book_PhysicsAssetD77F7C5549AFBF4AA558279D53FF18E5.tmp' to '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Models/Book_PhysicsAsset.uasset'
+[2017.08.26-11.07.04:102][195]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Models/Book_PhysicsAsset.uasset
+[2017.08.26-11.07.04:102][195]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Book_Skeleton" FILE="../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Models/Book_Skeleton.uasset" SILENT=true
+[2017.08.26-11.07.04:112][195]LogSavePackage: Save=7.48ms
+[2017.08.26-11.07.04:112][195]LogSavePackage: Moving '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Saved/Book_Skeleton75E4D0E445867401BBAFCC9B28C636DE.tmp' to '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Models/Book_Skeleton.uasset'
+[2017.08.26-11.07.04:117][195]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Models/Book_Skeleton.uasset
+[2017.08.26-11.07.04:118][195]Cmd: MAP LOAD FILE="../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/DontbeaSheep.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.26-11.07.04:118][195]LightingResults: New page: Lighting Build
+[2017.08.26-11.07.04:121][195]LoadErrors: New page: Loading map: DontbeaSheep.umap
+[2017.08.26-11.07.04:121][195]MapCheck: New page: Map Check
+[2017.08.26-11.07.04:121][195]LightingResults: New page: Lighting Build
+[2017.08.26-11.07.04:265][195]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.26-11.07.04:318][195]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.26-11.07.04:397][195]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 78.881ms to complete.
+[2017.08.26-11.07.04:397][195]LogFileHelpers: Loading map 'DontbeaSheep' took 0.280
+[2017.08.26-11.07.08:024][389]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.26-11.07.08:046][389]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DontbeaSheep.DontbeaSheep:PersistentLevel' has LevelScriptBlueprint '/Game/DontbeaSheep.DontbeaSheep:PersistentLevel.DontbeaSheep' with GeneratedClass '/Game/DontbeaSheep.DontbeaSheep_C' with ClassGeneratedBy '/Game/DontbeaSheep.DontbeaSheep:PersistentLevel.DontbeaSheep'
+[2017.08.26-11.07.08:046][389]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.26-11.07.08:046][389]PIE: New page: PIE session: DontbeaSheep (Aug 25, 2017, 9:07:08 PM)
+[2017.08.26-11.07.08:046][389]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_DontbeaSheep
+[2017.08.26-11.07.08:120][389]LogPlayLevel: PIE: StaticDuplicateObject took: (0.073493s)
+[2017.08.26-11.07.08:120][389]LogAIModule: Creating AISystem for world DontbeaSheep
+[2017.08.26-11.07.08:121][389]LogPlayLevel: PIE: World Init took: (0.000925s)
+[2017.08.26-11.07.08:121][389]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DontbeaSheep.DontbeaSheep to /Game/UEDPIE_0_DontbeaSheep.DontbeaSheep (0.074710s)
+[2017.08.26-11.07.08:152][389]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.26-11.07.08:163][389]LogInit: FAudioDevice initialized.
+[2017.08.26-11.07.08:210][389]LogLoad: Game class is 'storyBook_gamemode_C'
+[2017.08.26-11.07.08:212][389]LogWorld: Bringing World /Game/UEDPIE_0_DontbeaSheep.DontbeaSheep up for play (max tick rate 60) at 2017.08.26-04.07.08
+[2017.08.26-11.07.08:212][389]LogWorld: Bringing up level for play took: 0.001338
+[2017.08.26-11.07.08:269][389]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.08.26-11.07.08:271][389]LogScript:Warning: Accessed None trying to read property Axe01
+	Pickup_C /Game/UEDPIE_0_DontbeaSheep.DontbeaSheep:PersistentLevel.TestBP
+	Function /Game/Pickup.Pickup_C:ExecuteUbergraph_Pickup:00B2
+[2017.08.26-11.07.08:272][389]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Axe01 from function: 'ExecuteUbergraph_Pickup' from node: Set Static Mesh in graph: EventGraph in object: Pickup with description: Accessed None trying to read property Axe01
+[2017.08.26-11.07.08:272][389]PIE: Info Play in editor start time for /Game/UEDPIE_0_DontbeaSheep -0.231
+[2017.08.26-11.07.08:272][389]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DontbeaSheep.DontbeaSheep:PersistentLevel' has LevelScriptBlueprint '/Game/DontbeaSheep.DontbeaSheep:PersistentLevel.DontbeaSheep' with GeneratedClass '/Game/DontbeaSheep.DontbeaSheep_C' with ClassGeneratedBy '/Game/DontbeaSheep.DontbeaSheep:PersistentLevel.DontbeaSheep'
+[2017.08.26-11.07.11:154][554]LogBlueprintUserMessages: [bp_sheep011_C_0] Axe
+[2017.08.26-11.07.13:616][701]LogBlueprintUserMessages: [bp_sheep011_C_0] Axe
+[2017.08.26-11.07.17:301][922]LogBlueprintUserMessages: [bp_sheep011_C_0] Axe
+[2017.08.26-11.07.23:519][295]LogBlueprintUserMessages: [bp_sheep011_C_0] CUT DOWN THE TREE
+[2017.08.26-11.07.25:335][404]LogBlueprintUserMessages: [bp_sheep011_C_0] CUT DOWN THE TREE
+[2017.08.26-11.07.27:536][536]LogBlueprintUserMessages: [bp_sheep011_C_0] CUT DOWN THE TREE
+[2017.08.26-11.07.36:106][ 50]LogBlueprintUserMessages: [bp_sheep011_C_0] work damit
+[2017.08.26-11.07.36:106][ 50]LogScript:Warning: Accessed None trying to read property CallFunc_GetAnimInstance_ReturnValue
+	bp_sheep011_C /Game/UEDPIE_0_DontbeaSheep.DontbeaSheep:PersistentLevel.bp_sheep011_C_0
+	Function /Game/bp_sheep011.bp_sheep011_C:ExecuteUbergraph_bp_sheep011:0B4D
+[2017.08.26-11.07.36:106][ 50]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetAnimInstance_ReturnValue from function: 'ExecuteUbergraph_bp_sheep011' from node: Montage Play in graph: EventGraph in object: bp_sheep011 with description: Accessed None trying to read property CallFunc_GetAnimInstance_ReturnValue
+[2017.08.26-11.07.36:107][ 50]LogBlueprintUserMessages: [bp_sheep011_C_0] your not heavy enough to cross the stream and not get swept away
+[2017.08.26-11.07.38:324][183]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DontbeaSheep.DontbeaSheep:PersistentLevel' has LevelScriptBlueprint '/Game/DontbeaSheep.DontbeaSheep:PersistentLevel.DontbeaSheep' with GeneratedClass '/Game/DontbeaSheep.DontbeaSheep_C' with ClassGeneratedBy '/Game/DontbeaSheep.DontbeaSheep:PersistentLevel.DontbeaSheep'
+[2017.08.26-11.07.38:365][183]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DontbeaSheep.DontbeaSheep:PersistentLevel' has LevelScriptBlueprint '/Game/DontbeaSheep.DontbeaSheep:PersistentLevel.DontbeaSheep' with GeneratedClass '/Game/DontbeaSheep.DontbeaSheep_C' with ClassGeneratedBy '/Game/DontbeaSheep.DontbeaSheep:PersistentLevel.DontbeaSheep'
+[2017.08.26-11.07.41:221][340]LogEditorViewport: Clicking on Actor (LMB): Pickup_C (TestBP)
+[2017.08.26-11.08.43:784][966]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InputAxisDelegateBinding_2' or package '/Engine/Transient'.
+[2017.08.26-11.08.43:784][966]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UberGraphFrame' or package '/Engine/Transient'.
+[2017.08.26-11.08.43:784][966]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UserConstructionScript' or package '/Engine/Transient'.
+[2017.08.26-11.08.43:784][966]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpAxisEvt_forward_K2Node_InputAxisEvent_0' or package '/Engine/Transient'.
+[2017.08.26-11.08.43:784][966]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpAxisEvt_right_K2Node_InputAxisEvent_2' or package '/Engine/Transient'.
+[2017.08.26-11.08.43:784][966]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_bp_Sheep01' or package '/Engine/Transient'.
+[2017.08.26-11.08.43:784][966]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Camera' or package '/Engine/Transient'.
+[2017.08.26-11.08.43:785][966]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SpringArm' or package '/Engine/Transient'.
+[2017.08.26-11.08.43:785][966]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Cube' or package '/Engine/Transient'.
+[2017.08.26-11.08.43:785][966]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot' or package '/Engine/Transient'.
+[2017.08.26-11.08.43:785][966]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MovementDisabled' or package '/Engine/Transient'.
+[2017.08.26-11.08.43:785][966]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpAxisEvt_forward_K2Node_InputAxisEvent_0' or package '/Game/bp_Sheep01'.
+[2017.08.26-11.08.43:785][966]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpAxisEvt_right_K2Node_InputAxisEvent_2' or package '/Game/bp_Sheep01'.
+[2017.08.26-11.08.43:785][966]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_bp_Sheep01_C_41' or package '/Engine/Transient'.
+[2017.08.26-11.08.43:785][966]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_bp_Sheep01_C_1' or package '/Engine/Transient'.
+[2017.08.26-11.08.43:785][966]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Camera_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.08.26-11.08.43:785][966]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SpringArm_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.08.26-11.08.43:785][966]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Cube_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.08.26-11.08.43:785][966]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.08.26-11.08.43:785][966]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SimpleConstructionScript_0' or package '/Engine/Transient'.
+[2017.08.26-11.08.43:785][966]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_bp_Sheep01_C_40' or package '/Engine/Transient'.
+[2017.08.26-11.08.43:785][966]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_bp_Sheep01_C_0' or package '/Engine/Transient'.
+[2017.08.26-11.08.53:241][280]LogMetaData: Removing '/Game/Blueprints/bp_sheep011.bp_sheep011:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/bp_sheep011.PackageMetaData'
+[2017.08.26-11.08.53:241][280]LogMetaData: Removing '/Game/Blueprints/bp_sheep011.bp_sheep011_C' ref from Metadata '/Game/bp_sheep011.PackageMetaData'
+[2017.08.26-11.08.53:241][280]LogMetaData: Removing '/Game/Blueprints/bp_sheep011.bp_sheep011_C:BndEvt__interaction_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/bp_sheep011.PackageMetaData'
+[2017.08.26-11.08.53:241][280]LogMetaData: Removing '/Game/Blueprints/bp_sheep011.bp_sheep011_C:BndEvt__interaction_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature' ref from Metadata '/Game/bp_sheep011.PackageMetaData'
+[2017.08.26-11.08.53:241][280]LogMetaData: Removing '/Game/Blueprints/bp_sheep011.bp_sheep011_C:InpAxisEvt_right_K2Node_InputAxisEvent_2' ref from Metadata '/Game/bp_sheep011.PackageMetaData'
+[2017.08.26-11.08.53:241][280]LogMetaData: Removing '/Game/Blueprints/bp_sheep011.bp_sheep011_C:BndEvt__hurtBox_K2Node_ComponentBoundEvent_3_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/bp_sheep011.PackageMetaData'
+[2017.08.26-11.08.53:241][280]LogMetaData: Removing '/Game/Blueprints/bp_sheep011.bp_sheep011_C:InpAxisEvt_forward_K2Node_InputAxisEvent_0' ref from Metadata '/Game/bp_sheep011.PackageMetaData'
+[2017.08.26-11.08.53:241][280]LogMetaData: Removing '/Game/Blueprints/bp_sheep011.bp_sheep011_C:ExecuteUbergraph_bp_sheep011' ref from Metadata '/Game/bp_sheep011.PackageMetaData'
+[2017.08.26-11.08.53:241][280]LogMetaData: Removing '/Game/Blueprints/bp_sheep011.bp_sheep011_C:UserConstructionScript' ref from Metadata '/Game/bp_sheep011.PackageMetaData'
+[2017.08.26-11.08.53:241][280]LogMetaData: Removing '/Game/Blueprints/bp_sheep011.bp_sheep011_C:hurtBox' ref from Metadata '/Game/bp_sheep011.PackageMetaData'
+[2017.08.26-11.08.53:241][280]LogMetaData: Removing '/Game/Blueprints/bp_sheep011.bp_sheep011_C:interaction' ref from Metadata '/Game/bp_sheep011.PackageMetaData'
+[2017.08.26-11.08.53:241][280]LogMetaData: Removing '/Game/Blueprints/bp_sheep011.bp_sheep011_C:Camera' ref from Metadata '/Game/bp_sheep011.PackageMetaData'
+[2017.08.26-11.08.53:241][280]LogMetaData: Removing '/Game/Blueprints/bp_sheep011.bp_sheep011_C:SpringArm' ref from Metadata '/Game/bp_sheep011.PackageMetaData'
+[2017.08.26-11.08.53:241][280]LogMetaData: Removing '/Game/Blueprints/bp_sheep011.bp_sheep011_C:Cube' ref from Metadata '/Game/bp_sheep011.PackageMetaData'
+[2017.08.26-11.08.53:241][280]LogMetaData: Removing '/Game/Blueprints/bp_sheep011.bp_sheep011_C:riversweep' ref from Metadata '/Game/bp_sheep011.PackageMetaData'
+[2017.08.26-11.08.53:241][280]LogMetaData: Removing '/Game/Blueprints/bp_sheep011.bp_sheep011_C:movementDisabled' ref from Metadata '/Game/bp_sheep011.PackageMetaData'
+[2017.08.26-11.08.53:241][280]LogMetaData: Removing '/Game/Blueprints/bp_sheep011.bp_sheep011_C:isJumping' ref from Metadata '/Game/bp_sheep011.PackageMetaData'
+[2017.08.26-11.08.53:241][280]LogMetaData: Removing '/Game/Blueprints/bp_sheep011.bp_sheep011_C:hasAxe' ref from Metadata '/Game/bp_sheep011.PackageMetaData'
+[2017.08.26-11.08.53:241][280]LogMetaData: Removing '/Game/Blueprints/bp_sheep011.bp_sheep011_C:is_in Range' ref from Metadata '/Game/bp_sheep011.PackageMetaData'
+[2017.08.26-11.08.53:241][280]LogMetaData: Removing '/Game/Blueprints/bp_sheep011.bp_sheep011_C:overlappedPickup' ref from Metadata '/Game/bp_sheep011.PackageMetaData'
+[2017.08.26-11.08.53:241][280]LogMetaData: Removing '/Game/Blueprints/bp_sheep011.bp_sheep011_C:collectedPickups' ref from Metadata '/Game/bp_sheep011.PackageMetaData'
+[2017.08.26-11.08.53:241][280]LogMetaData: Removing '/Game/Blueprints/bp_sheep011.bp_sheep011_C:cutTree' ref from Metadata '/Game/bp_sheep011.PackageMetaData'
+[2017.08.26-11.08.53:241][280]LogMetaData: Removing '/Game/Blueprints/bp_sheep011.bp_sheep011_C:eatenBarry' ref from Metadata '/Game/bp_sheep011.PackageMetaData'
+[2017.08.26-11.08.53:241][280]LogMetaData: Removing '/Game/Blueprints/bp_sheep011.SKEL_bp_sheep011_C:eatenBarry' ref from Metadata '/Game/bp_sheep011.PackageMetaData'
+[2017.08.26-11.08.53:241][280]LogMetaData: Removing '/Game/Blueprints/bp_sheep011.SKEL_bp_sheep011_C:cutTree' ref from Metadata '/Game/bp_sheep011.PackageMetaData'
+[2017.08.26-11.08.53:241][280]LogMetaData: Removing '/Game/Blueprints/bp_sheep011.SKEL_bp_sheep011_C:collectedPickups' ref from Metadata '/Game/bp_sheep011.PackageMetaData'
+[2017.08.26-11.08.53:241][280]LogMetaData: Removing '/Game/Blueprints/bp_sheep011.SKEL_bp_sheep011_C:overlappedPickup' ref from Metadata '/Game/bp_sheep011.PackageMetaData'
+[2017.08.26-11.08.53:241][280]LogMetaData: Removing '/Game/Blueprints/bp_sheep011.SKEL_bp_sheep011_C:is_in Range' ref from Metadata '/Game/bp_sheep011.PackageMetaData'
+[2017.08.26-11.08.53:241][280]LogMetaData: Removing '/Game/Blueprints/bp_sheep011.SKEL_bp_sheep011_C:hasAxe' ref from Metadata '/Game/bp_sheep011.PackageMetaData'
+[2017.08.26-11.08.53:241][280]LogMetaData: Removing '/Game/Blueprints/bp_sheep011.SKEL_bp_sheep011_C:isJumping' ref from Metadata '/Game/bp_sheep011.PackageMetaData'
+[2017.08.26-11.08.53:241][280]LogMetaData: Removing '/Game/Blueprints/bp_sheep011.SKEL_bp_sheep011_C:movementDisabled' ref from Metadata '/Game/bp_sheep011.PackageMetaData'
+[2017.08.26-11.08.53:241][280]LogMetaData: Removing '/Game/Blueprints/bp_sheep011.SKEL_bp_sheep011_C:riversweep' ref from Metadata '/Game/bp_sheep011.PackageMetaData'
+[2017.08.26-11.08.53:241][280]LogMetaData: Removing '/Game/Blueprints/bp_sheep011.SKEL_bp_sheep011_C:Cube' ref from Metadata '/Game/bp_sheep011.PackageMetaData'
+[2017.08.26-11.08.53:241][280]LogMetaData: Removing '/Game/Blueprints/bp_sheep011.SKEL_bp_sheep011_C:SpringArm' ref from Metadata '/Game/bp_sheep011.PackageMetaData'
+[2017.08.26-11.08.53:241][280]LogMetaData: Removing '/Game/Blueprints/bp_sheep011.SKEL_bp_sheep011_C:Camera' ref from Metadata '/Game/bp_sheep011.PackageMetaData'
+[2017.08.26-11.08.53:242][280]LogMetaData: Removing '/Game/Blueprints/bp_sheep011.SKEL_bp_sheep011_C:interaction' ref from Metadata '/Game/bp_sheep011.PackageMetaData'
+[2017.08.26-11.08.53:242][280]LogMetaData: Removing '/Game/Blueprints/bp_sheep011.SKEL_bp_sheep011_C:hurtBox' ref from Metadata '/Game/bp_sheep011.PackageMetaData'
+[2017.08.26-11.08.53:242][280]LogMetaData: Removing '/Game/Blueprints/bp_sheep011.SKEL_bp_sheep011_C:UserConstructionScript' ref from Metadata '/Game/bp_sheep011.PackageMetaData'
+[2017.08.26-11.08.53:242][280]LogMetaData: Removing '/Game/Blueprints/bp_sheep011.SKEL_bp_sheep011_C:ExecuteUbergraph_bp_sheep011' ref from Metadata '/Game/bp_sheep011.PackageMetaData'
+[2017.08.26-11.08.53:242][280]LogMetaData: Removing '/Game/Blueprints/bp_sheep011.SKEL_bp_sheep011_C:InpAxisEvt_forward_K2Node_InputAxisEvent_0' ref from Metadata '/Game/bp_sheep011.PackageMetaData'
+[2017.08.26-11.08.53:242][280]LogMetaData: Removing '/Game/Blueprints/bp_sheep011.SKEL_bp_sheep011_C:BndEvt__hurtBox_K2Node_ComponentBoundEvent_3_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/bp_sheep011.PackageMetaData'
+[2017.08.26-11.08.53:242][280]LogMetaData: Removing '/Game/Blueprints/bp_sheep011.SKEL_bp_sheep011_C:InpAxisEvt_right_K2Node_InputAxisEvent_2' ref from Metadata '/Game/bp_sheep011.PackageMetaData'
+[2017.08.26-11.08.53:242][280]LogMetaData: Removing '/Game/Blueprints/bp_sheep011.SKEL_bp_sheep011_C:BndEvt__interaction_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature' ref from Metadata '/Game/bp_sheep011.PackageMetaData'
+[2017.08.26-11.08.53:242][280]LogMetaData: Removing '/Game/Blueprints/bp_sheep011.SKEL_bp_sheep011_C:BndEvt__interaction_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/bp_sheep011.PackageMetaData'
+[2017.08.26-11.08.53:242][280]LogMetaData: Removing '/Game/Blueprints/bp_sheep011.SKEL_bp_sheep011_C' ref from Metadata '/Game/bp_sheep011.PackageMetaData'
+[2017.08.26-11.08.53:341][280]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/bp_sheep011" FILE="../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Blueprints/bp_sheep011.uasset" SILENT=true
+[2017.08.26-11.08.53:497][280]LogSavePackage: Save=151.69ms
+[2017.08.26-11.08.53:497][280]LogSavePackage: Moving '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Saved/bp_sheep011405EDBBC4C5CCD8058C747BAB104B9FA.tmp' to '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Blueprints/bp_sheep011.uasset'
+[2017.08.26-11.08.53:500][280]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Blueprints/bp_sheep011.uasset
+[2017.08.26-11.08.53:652][280]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/storyBook_gamemode" FILE="../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/storyBook_gamemode.uasset" SILENT=true
+[2017.08.26-11.08.53:698][280]LogSavePackage: Save=22.12ms
+[2017.08.26-11.08.53:698][280]LogSavePackage: Moving '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Saved/storyBook_gamemodeDB90C4DB44715FB2E55323B5E2CDB66F.tmp' to '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/storyBook_gamemode.uasset'
+[2017.08.26-11.08.53:701][280]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/storyBook_gamemode.uasset
+[2017.08.26-11.09.00:041][506]LogMetaData: Removing '/Game/Blueprints/ControllerForMenu.ControllerForMenu_C' ref from Metadata '/Game/ControllerForMenu.PackageMetaData'
+[2017.08.26-11.09.00:041][506]LogMetaData: Removing '/Game/Blueprints/ControllerForMenu.ControllerForMenu:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/ControllerForMenu.PackageMetaData'
+[2017.08.26-11.09.00:041][506]LogMetaData: Removing '/Game/Blueprints/ControllerForMenu.ControllerForMenu:EventGraph.K2Node_Event_0' ref from Metadata '/Game/ControllerForMenu.PackageMetaData'
+[2017.08.26-11.09.00:041][506]LogMetaData: Removing '/Game/Blueprints/ControllerForMenu.ControllerForMenu:EventGraph.K2Node_Event_1' ref from Metadata '/Game/ControllerForMenu.PackageMetaData'
+[2017.08.26-11.09.00:041][506]LogMetaData: Removing '/Game/Blueprints/ControllerForMenu.SKEL_ControllerForMenu_C:UserConstructionScript' ref from Metadata '/Game/ControllerForMenu.PackageMetaData'
+[2017.08.26-11.09.00:041][506]LogMetaData: Removing '/Game/Blueprints/ControllerForMenu.SKEL_ControllerForMenu_C' ref from Metadata '/Game/ControllerForMenu.PackageMetaData'
+[2017.08.26-11.09.00:044][506]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ControllerForMenu" FILE="../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Blueprints/ControllerForMenu.uasset" SILENT=true
+[2017.08.26-11.09.00:059][506]LogSavePackage: Save=13.34ms
+[2017.08.26-11.09.00:059][506]LogSavePackage: Moving '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Saved/ControllerForMenuFDC9BC234FB0F1AF71768CA2BF69CC52.tmp' to '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Blueprints/ControllerForMenu.uasset'
+[2017.08.26-11.09.00:063][506]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Blueprints/ControllerForMenu.uasset
+[2017.08.26-11.09.06:626][694]LogMetaData: Removing '/Game/Blueprints/MenuGameMode.MenuGameMode:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/MenuGameMode.PackageMetaData'
+[2017.08.26-11.09.06:626][694]LogMetaData: Removing '/Game/Blueprints/MenuGameMode.MenuGameMode_C' ref from Metadata '/Game/MenuGameMode.PackageMetaData'
+[2017.08.26-11.09.06:626][694]LogMetaData: Removing '/Game/Blueprints/MenuGameMode.MenuGameMode_C:ExecuteUbergraph_MenuGameMode' ref from Metadata '/Game/MenuGameMode.PackageMetaData'
+[2017.08.26-11.09.06:626][694]LogMetaData: Removing '/Game/Blueprints/MenuGameMode.MenuGameMode_C:UserConstructionScript' ref from Metadata '/Game/MenuGameMode.PackageMetaData'
+[2017.08.26-11.09.06:626][694]LogMetaData: Removing '/Game/Blueprints/MenuGameMode.MenuGameMode_C:ReceiveBeginPlay' ref from Metadata '/Game/MenuGameMode.PackageMetaData'
+[2017.08.26-11.09.06:626][694]LogMetaData: Removing '/Game/Blueprints/MenuGameMode.MenuGameMode_C:DefaultSceneRoot' ref from Metadata '/Game/MenuGameMode.PackageMetaData'
+[2017.08.26-11.09.06:626][694]LogMetaData: Removing '/Game/Blueprints/MenuGameMode.MenuGameMode_C:NewVar_0' ref from Metadata '/Game/MenuGameMode.PackageMetaData'
+[2017.08.26-11.09.06:626][694]LogMetaData: Removing '/Game/Blueprints/MenuGameMode.MenuGameMode_C:NewVar_1' ref from Metadata '/Game/MenuGameMode.PackageMetaData'
+[2017.08.26-11.09.06:626][694]LogMetaData: Removing '/Game/Blueprints/MenuGameMode.SKEL_MenuGameMode_C:NewVar_1' ref from Metadata '/Game/MenuGameMode.PackageMetaData'
+[2017.08.26-11.09.06:626][694]LogMetaData: Removing '/Game/Blueprints/MenuGameMode.SKEL_MenuGameMode_C:NewVar_0' ref from Metadata '/Game/MenuGameMode.PackageMetaData'
+[2017.08.26-11.09.06:626][694]LogMetaData: Removing '/Game/Blueprints/MenuGameMode.SKEL_MenuGameMode_C:DefaultSceneRoot' ref from Metadata '/Game/MenuGameMode.PackageMetaData'
+[2017.08.26-11.09.06:626][694]LogMetaData: Removing '/Game/Blueprints/MenuGameMode.SKEL_MenuGameMode_C:ReceiveBeginPlay' ref from Metadata '/Game/MenuGameMode.PackageMetaData'
+[2017.08.26-11.09.06:626][694]LogMetaData: Removing '/Game/Blueprints/MenuGameMode.SKEL_MenuGameMode_C:UserConstructionScript' ref from Metadata '/Game/MenuGameMode.PackageMetaData'
+[2017.08.26-11.09.06:626][694]LogMetaData: Removing '/Game/Blueprints/MenuGameMode.SKEL_MenuGameMode_C:ExecuteUbergraph_MenuGameMode' ref from Metadata '/Game/MenuGameMode.PackageMetaData'
+[2017.08.26-11.09.06:626][694]LogMetaData: Removing '/Game/Blueprints/MenuGameMode.SKEL_MenuGameMode_C' ref from Metadata '/Game/MenuGameMode.PackageMetaData'
+[2017.08.26-11.09.06:629][694]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MenuGameMode" FILE="../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Blueprints/MenuGameMode.uasset" SILENT=true
+[2017.08.26-11.09.06:686][694]LogSavePackage: Save=54.87ms
+[2017.08.26-11.09.06:686][694]LogSavePackage: Moving '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Saved/MenuGameMode9A60DD28407338863793ACB1A71A8FB6.tmp' to '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Blueprints/MenuGameMode.uasset'
+[2017.08.26-11.09.06:689][694]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Blueprints/MenuGameMode.uasset
+[2017.08.26-11.09.11:089][878]LogMetaData: Removing '/Game/Blueprints/Pickup.Pickup_C' ref from Metadata '/Game/Pickup.PackageMetaData'
+[2017.08.26-11.09.11:089][878]LogMetaData: Removing '/Game/Blueprints/Pickup.Pickup_C:ExecuteUbergraph_Pickup' ref from Metadata '/Game/Pickup.PackageMetaData'
+[2017.08.26-11.09.11:089][878]LogMetaData: Removing '/Game/Blueprints/Pickup.Pickup_C:UserConstructionScript' ref from Metadata '/Game/Pickup.PackageMetaData'
+[2017.08.26-11.09.11:089][878]LogMetaData: Removing '/Game/Blueprints/Pickup.Pickup_C:ReceiveBeginPlay' ref from Metadata '/Game/Pickup.PackageMetaData'
+[2017.08.26-11.09.11:089][878]LogMetaData: Removing '/Game/Blueprints/Pickup.Pickup_C:Axe01' ref from Metadata '/Game/Pickup.PackageMetaData'
+[2017.08.26-11.09.11:089][878]LogMetaData: Removing '/Game/Blueprints/Pickup.Pickup_C:Type' ref from Metadata '/Game/Pickup.PackageMetaData'
+[2017.08.26-11.09.11:089][878]LogMetaData: Removing '/Game/Blueprints/Pickup.Pickup:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Pickup.PackageMetaData'
+[2017.08.26-11.09.11:089][878]LogMetaData: Removing '/Game/Blueprints/Pickup.Pickup:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Pickup.PackageMetaData'
+[2017.08.26-11.09.11:089][878]LogMetaData: Removing '/Game/Blueprints/Pickup.Pickup:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Pickup.PackageMetaData'
+[2017.08.26-11.09.11:089][878]LogMetaData: Removing '/Game/Blueprints/Pickup.SKEL_Pickup_C:Type' ref from Metadata '/Game/Pickup.PackageMetaData'
+[2017.08.26-11.09.11:089][878]LogMetaData: Removing '/Game/Blueprints/Pickup.SKEL_Pickup_C:Axe01' ref from Metadata '/Game/Pickup.PackageMetaData'
+[2017.08.26-11.09.11:089][878]LogMetaData: Removing '/Game/Blueprints/Pickup.SKEL_Pickup_C:ReceiveBeginPlay' ref from Metadata '/Game/Pickup.PackageMetaData'
+[2017.08.26-11.09.11:089][878]LogMetaData: Removing '/Game/Blueprints/Pickup.SKEL_Pickup_C:UserConstructionScript' ref from Metadata '/Game/Pickup.PackageMetaData'
+[2017.08.26-11.09.11:089][878]LogMetaData: Removing '/Game/Blueprints/Pickup.SKEL_Pickup_C:ExecuteUbergraph_Pickup' ref from Metadata '/Game/Pickup.PackageMetaData'
+[2017.08.26-11.09.11:089][878]LogMetaData: Removing '/Game/Blueprints/Pickup.SKEL_Pickup_C' ref from Metadata '/Game/Pickup.PackageMetaData'
+[2017.08.26-11.09.11:127][878]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickup" FILE="../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Blueprints/Pickup.uasset" SILENT=true
+[2017.08.26-11.09.11:180][878]LogSavePackage: Save=50.57ms
+[2017.08.26-11.09.11:180][878]LogSavePackage: Moving '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Saved/PickupC6F6661F4DED98EBED4309B665CB5434.tmp' to '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Blueprints/Pickup.uasset'
+[2017.08.26-11.09.11:185][878]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Blueprints/Pickup.uasset
+[2017.08.26-11.09.11:188][878]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pickup" FILE="../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Pickup.uasset" SILENT=true
+[2017.08.26-11.09.11:214][878]LogSavePackage: Save=11.56ms
+[2017.08.26-11.09.11:214][878]LogSavePackage: Moving '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Saved/PickupB054EB5C418D792DF609BEB413A879BB.tmp' to '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Pickup.uasset'
+[2017.08.26-11.09.11:220][878]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Pickup.uasset
+[2017.08.26-11.09.30:507][484]LogMetaData: Removing '/Game/Blueprints/theRiver.theRiver:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/theRiver.PackageMetaData'
+[2017.08.26-11.09.30:508][484]LogMetaData: Removing '/Game/Blueprints/theRiver.theRiver_C' ref from Metadata '/Game/theRiver.PackageMetaData'
+[2017.08.26-11.09.30:508][484]LogMetaData: Removing '/Game/Blueprints/theRiver.theRiver:EventGraph.K2Node_Event_0' ref from Metadata '/Game/theRiver.PackageMetaData'
+[2017.08.26-11.09.30:508][484]LogMetaData: Removing '/Game/Blueprints/theRiver.theRiver:EventGraph.K2Node_Event_1' ref from Metadata '/Game/theRiver.PackageMetaData'
+[2017.08.26-11.09.30:508][484]LogMetaData: Removing '/Game/Blueprints/theRiver.theRiver:EventGraph.K2Node_Event_2' ref from Metadata '/Game/theRiver.PackageMetaData'
+[2017.08.26-11.09.30:508][484]LogMetaData: Removing '/Game/Blueprints/theRiver.theRiver_C:UserConstructionScript' ref from Metadata '/Game/theRiver.PackageMetaData'
+[2017.08.26-11.09.30:508][484]LogMetaData: Removing '/Game/Blueprints/theRiver.theRiver_C:Box' ref from Metadata '/Game/theRiver.PackageMetaData'
+[2017.08.26-11.09.30:508][484]LogMetaData: Removing '/Game/Blueprints/theRiver.theRiver_C:deathType' ref from Metadata '/Game/theRiver.PackageMetaData'
+[2017.08.26-11.09.30:508][484]LogMetaData: Removing '/Game/Blueprints/theRiver.SKEL_theRiver_C:deathType' ref from Metadata '/Game/theRiver.PackageMetaData'
+[2017.08.26-11.09.30:508][484]LogMetaData: Removing '/Game/Blueprints/theRiver.SKEL_theRiver_C:Box' ref from Metadata '/Game/theRiver.PackageMetaData'
+[2017.08.26-11.09.30:508][484]LogMetaData: Removing '/Game/Blueprints/theRiver.SKEL_theRiver_C:UserConstructionScript' ref from Metadata '/Game/theRiver.PackageMetaData'
+[2017.08.26-11.09.30:508][484]LogMetaData: Removing '/Game/Blueprints/theRiver.SKEL_theRiver_C' ref from Metadata '/Game/theRiver.PackageMetaData'
+[2017.08.26-11.09.30:559][484]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/theRiver" FILE="../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Blueprints/theRiver.uasset" SILENT=true
+[2017.08.26-11.09.30:599][484]LogSavePackage: Save=36.78ms
+[2017.08.26-11.09.30:599][484]LogSavePackage: Moving '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Saved/theRiverD97EE91A4CF840DCEF8067B9D8E56E5D.tmp' to '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Blueprints/theRiver.uasset'
+[2017.08.26-11.09.30:605][484]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Blueprints/theRiver.uasset
+[2017.08.26-11.09.30:607][484]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/theRiver" FILE="../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/theRiver.uasset" SILENT=true
+[2017.08.26-11.09.30:636][484]LogSavePackage: Save=12.72ms
+[2017.08.26-11.09.30:636][484]LogSavePackage: Moving '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Saved/theRiver99D179DF416026C905C057B807D03A69.tmp' to '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/theRiver.uasset'
+[2017.08.26-11.09.30:640][484]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/theRiver.uasset
+[2017.08.26-11.09.36:652][797]LogMetaData: Removing '/Game/Blueprints/tree_For_Cutting01.tree_For_Cutting01:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/tree_For_Cutting01.PackageMetaData'
+[2017.08.26-11.09.36:652][797]LogMetaData: Removing '/Game/Blueprints/tree_For_Cutting01.tree_For_Cutting01_C' ref from Metadata '/Game/tree_For_Cutting01.PackageMetaData'
+[2017.08.26-11.09.36:652][797]LogMetaData: Removing '/Game/Blueprints/tree_For_Cutting01.tree_For_Cutting01_C:ExecuteUbergraph_tree_For_Cutting01' ref from Metadata '/Game/tree_For_Cutting01.PackageMetaData'
+[2017.08.26-11.09.36:652][797]LogMetaData: Removing '/Game/Blueprints/tree_For_Cutting01.tree_For_Cutting01_C:UserConstructionScript' ref from Metadata '/Game/tree_For_Cutting01.PackageMetaData'
+[2017.08.26-11.09.36:652][797]LogMetaData: Removing '/Game/Blueprints/tree_For_Cutting01.SKEL_tree_For_Cutting01_C:UserConstructionScript' ref from Metadata '/Game/tree_For_Cutting01.PackageMetaData'
+[2017.08.26-11.09.36:652][797]LogMetaData: Removing '/Game/Blueprints/tree_For_Cutting01.SKEL_tree_For_Cutting01_C:ExecuteUbergraph_tree_For_Cutting01' ref from Metadata '/Game/tree_For_Cutting01.PackageMetaData'
+[2017.08.26-11.09.36:652][797]LogMetaData: Removing '/Game/Blueprints/tree_For_Cutting01.SKEL_tree_For_Cutting01_C' ref from Metadata '/Game/tree_For_Cutting01.PackageMetaData'
+[2017.08.26-11.09.36:683][797]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/tree_For_Cutting01" FILE="../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Blueprints/tree_For_Cutting01.uasset" SILENT=true
+[2017.08.26-11.09.36:708][797]LogSavePackage: Save=23.32ms
+[2017.08.26-11.09.36:708][797]LogSavePackage: Moving '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Saved/tree_For_Cutting012BB5CEA14C66839220906AB416369CBD.tmp' to '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Blueprints/tree_For_Cutting01.uasset'
+[2017.08.26-11.09.36:712][797]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Blueprints/tree_For_Cutting01.uasset
+[2017.08.26-11.09.36:714][797]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tree_For_Cutting01" FILE="../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/tree_For_Cutting01.uasset" SILENT=true
+[2017.08.26-11.09.36:733][797]LogSavePackage: Save=8.68ms
+[2017.08.26-11.09.36:733][797]LogSavePackage: Moving '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Saved/tree_For_Cutting01D86EBDF04FA81F0CF67D728026B4B3E6.tmp' to '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/tree_For_Cutting01.uasset'
+[2017.08.26-11.09.36:737][797]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/tree_For_Cutting01.uasset
+[2017.08.26-11.12.59:859][912]LogMetaData: Removing '/Game/enumeration/PickupTypes.PickupTypes' ref from Metadata '/Game/PickupTypes.PackageMetaData'
+[2017.08.26-11.12.59:864][912]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/enumeration/PickupTypes" FILE="../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/enumeration/PickupTypes.uasset" SILENT=true
+[2017.08.26-11.12.59:871][912]LogSavePackage: Save=5.04ms
+[2017.08.26-11.12.59:871][912]LogSavePackage: Moving '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Saved/PickupTypesD20C38074FBCA8FCBCC3E993FE105F9B.tmp' to '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/enumeration/PickupTypes.uasset'
+[2017.08.26-11.12.59:874][912]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/enumeration/PickupTypes.uasset
+[2017.08.26-11.12.59:983][912]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/bp_sheep011" FILE="../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Blueprints/bp_sheep011.uasset" SILENT=true
+[2017.08.26-11.13.00:064][912]LogSavePackage: Save=67.21ms
+[2017.08.26-11.13.00:064][912]LogSavePackage: Moving '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Saved/bp_sheep011032AC4FD4591DDC521CF9E9851DF86E3.tmp' to '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Blueprints/bp_sheep011.uasset'
+[2017.08.26-11.13.00:066][912]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Blueprints/bp_sheep011.uasset
+[2017.08.26-11.13.00:067][912]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Pickup" FILE="../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Blueprints/Pickup.uasset" SILENT=true
+[2017.08.26-11.13.00:092][912]LogSavePackage: Save=19.09ms
+[2017.08.26-11.13.00:092][912]LogSavePackage: Moving '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Saved/Pickup1888B9A24DD54B1DB7BB85A5209EAD6D.tmp' to '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Blueprints/Pickup.uasset'
+[2017.08.26-11.13.00:095][912]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Blueprints/Pickup.uasset
+[2017.08.26-11.13.22:524][220]LogMetaData: Removing '/Game/Levels/DontbeaSheep.DontbeaSheep_C' ref from Metadata '/Game/DontbeaSheep.PackageMetaData'
+[2017.08.26-11.13.22:524][220]LogMetaData: Removing '/Game/Levels/DontbeaSheep.SKEL_DontbeaSheep_C' ref from Metadata '/Game/DontbeaSheep.PackageMetaData'
+[2017.08.26-11.13.24:852][220]LogSavePackage: Save=103.08ms
+[2017.08.26-11.13.24:852][220]LogSavePackage: Moving '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Saved/DontbeaSheep467CB8D049F19E022892C49C79AE9CC5.tmp' to '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Levels/DontbeaSheep.umap'
+[2017.08.26-11.13.24:856][220]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Levels/DontbeaSheep.umap
+[2017.08.26-11.13.24:919][220]LogFileHelpers: Saving map 'DontbeaSheep' took 2.393
+[2017.08.26-11.13.26:308][290]LogLinker:Warning: Can't find file '/Game/Levels/MainMenuLvl_BuiltData'
+[2017.08.26-11.13.26:308][290]LogLinker:Warning: Can't find file for asset '/Game/Levels/MainMenuLvl_BuiltData' while loading ../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/MainMenuLvl.umap.
+[2017.08.26-11.13.26:308][290]LoadErrors:Error: Error /Game/MainMenuLvl : Can't find file for asset. /Game/Levels/MainMenuLvl_BuiltData
+[2017.08.26-11.13.26:308][290]LogLinker:Warning: Can't find file '/Game/Materials/MainMenuLvlColor'
+[2017.08.26-11.13.26:308][290]LogLinker:Warning: Can't find file for asset '/Game/Materials/MainMenuLvlColor' while loading ../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/MainMenuLvl.umap.
+[2017.08.26-11.13.26:309][290]LoadErrors:Error: Error /Game/MainMenuLvl : Can't find file for asset. /Game/Materials/MainMenuLvlColor
+[2017.08.26-11.13.26:309][290]LogLinker:Warning: Can't find file '/Game/Levels/MainMenuLvl_BuiltData'
+[2017.08.26-11.13.26:309][290]LogLinker:Warning: Can't find file for asset '/Game/Levels/MainMenuLvl_BuiltData' while loading ../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/MainMenuLvl.umap.
+[2017.08.26-11.13.26:309][290]LogLinker:Warning: Can't find file '/Game/Materials/MainMenuLvlColor'
+[2017.08.26-11.13.26:309][290]LogLinker:Warning: Can't find file for asset '/Game/Materials/MainMenuLvlColor' while loading ../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/MainMenuLvl.umap.
+[2017.08.26-11.13.26:311][290]LogLinker:Warning: Can't find file '/Game/Levels/MainMenuLvl_BuiltData'
+[2017.08.26-11.13.26:311][290]LoadErrors: Info Failed to load /Game/Levels/MainMenuLvl_BuiltData.MainMenuLvl_BuiltData Referenced by PersistentLevel
+[2017.08.26-11.13.26:312][290]LogLinker:Warning: Can't find file for asset '/Game/Levels/MainMenuLvl_BuiltData' while loading NULL.
+[2017.08.26-11.13.26:312][290]LogLinker:Warning: Can't find file '/Game/Materials/MainMenuLvlColor'
+[2017.08.26-11.13.26:312][290]LoadErrors: Info Failed to load /Game/Materials/MainMenuLvlColor.MainMenuLvlColor Referenced by Model_0
+[2017.08.26-11.13.26:312][290]LogLinker:Warning: Can't find file for asset '/Game/Materials/MainMenuLvlColor' while loading NULL.
+[2017.08.26-11.13.26:312][290]LogLinker:Warning: Can't find file '/Game/Materials/MainMenuLvlColor'
+[2017.08.26-11.13.26:312][290]LoadErrors: Info Failed to load /Game/Materials/MainMenuLvlColor.MainMenuLvlColor Referenced by ModelComponent_7
+[2017.08.26-11.13.26:312][290]LogLinker:Warning: Can't find file for asset '/Game/Materials/MainMenuLvlColor' while loading NULL.
+[2017.08.26-11.13.26:312][290]LogLinker:Warning: Can't find file '/Game/Materials/MainMenuLvlColor'
+[2017.08.26-11.13.26:312][290]LoadErrors: Info Failed to load /Game/Materials/MainMenuLvlColor.MainMenuLvlColor Referenced by Polys_1
+[2017.08.26-11.13.26:312][290]LogLinker:Warning: Can't find file for asset '/Game/Materials/MainMenuLvlColor' while loading NULL.
+[2017.08.26-11.13.26:339][290]LogAIModule: Creating AISystem for world MainMenuLvl
+[2017.08.26-11.13.29:221][453]LogSavePackage: Save=43.34ms
+[2017.08.26-11.13.29:221][453]LogSavePackage: Moving '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Saved/MainMenuLvl9FE6E26A45403022A7F9E0B486BB4B0E.tmp' to '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Levels/MainMenuLvl.umap'
+[2017.08.26-11.13.29:225][453]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Levels/MainMenuLvl.umap
+[2017.08.26-11.13.29:227][453]LogFileHelpers: Saving map 'MainMenuLvl' took 0.122
+[2017.08.26-11.13.40:184][ 71]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/DontbeaSheep_BuiltData" FILE="../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Levels/DontbeaSheep_BuiltData.uasset" SILENT=true
+[2017.08.26-11.13.40:226][ 71]LogSavePackage: Save=39.85ms
+[2017.08.26-11.13.40:227][ 71]LogSavePackage: Moving '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Saved/DontbeaSheep_BuiltData41C627844883BC0ADE8BDEB0790F8AE5.tmp' to '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Levels/DontbeaSheep_BuiltData.uasset'
+[2017.08.26-11.13.40:230][ 71]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Levels/DontbeaSheep_BuiltData.uasset
+[2017.08.26-11.13.45:598][368]LogMaterial: Missing cached shader map for material MainMenuLvlColor, compiling. 
+[2017.08.26-11.13.45:625][368]LogTemp:Display: Added material ShaderMap 0x0000024E0D192780 with Material 0x0000024E4BBDE680 to ShaderMapsBeingCompiled
+[2017.08.26-11.13.45:667][368]LogTemp:Display: Kicking off shader compilation for MainMenuLvlColor, GameThreadShaderMap 0x0000024E0D192780
+[2017.08.26-11.13.50:491][541]LogTemp:Display: Finished compile of shader map 0x0000024E0D192780
+[2017.08.26-11.13.50:491][541]LogTemp:Display: Shader map MainMenuLvlColor complete, GameThreadShaderMap 0x0000024E0D192780, marking material MainMenuLvlColor as finished
+[2017.08.26-11.13.50:491][541]LogTemp:Display: Marking material as finished 0x0000024E4BBDE680
+[2017.08.26-11.13.50:570][541]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/MainMenuLvlColor" FILE="../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Models/MainMenuLvlColor.uasset" SILENT=true
+[2017.08.26-11.13.50:589][541]LogSavePackage: Save=17.05ms
+[2017.08.26-11.13.50:589][541]LogSavePackage: Moving '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Saved/MainMenuLvlColor59B47F094F36CD34E692DDB5A761E733.tmp' to '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Models/MainMenuLvlColor.uasset'
+[2017.08.26-11.13.50:592][541]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Models/MainMenuLvlColor.uasset
+[2017.08.26-11.13.54:152][737]LogMetaData: Removing '/Game/Blueprints/storyBook_gamemode.storyBook_gamemode:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/storyBook_gamemode.PackageMetaData'
+[2017.08.26-11.13.54:152][737]LogMetaData: Removing '/Game/Blueprints/storyBook_gamemode.storyBook_gamemode_C:DefaultSceneRoot' ref from Metadata '/Game/storyBook_gamemode.PackageMetaData'
+[2017.08.26-11.13.54:152][737]LogMetaData: Removing '/Game/Blueprints/storyBook_gamemode.storyBook_gamemode_C:UserConstructionScript' ref from Metadata '/Game/storyBook_gamemode.PackageMetaData'
+[2017.08.26-11.13.54:152][737]LogMetaData: Removing '/Game/Blueprints/storyBook_gamemode.storyBook_gamemode_C' ref from Metadata '/Game/storyBook_gamemode.PackageMetaData'
+[2017.08.26-11.13.54:152][737]LogMetaData: Removing '/Game/Blueprints/storyBook_gamemode.storyBook_gamemode:EventGraph.K2Node_Event_0' ref from Metadata '/Game/storyBook_gamemode.PackageMetaData'
+[2017.08.26-11.13.54:152][737]LogMetaData: Removing '/Game/Blueprints/storyBook_gamemode.storyBook_gamemode:EventGraph.K2Node_Event_1' ref from Metadata '/Game/storyBook_gamemode.PackageMetaData'
+[2017.08.26-11.13.54:152][737]LogMetaData: Removing '/Game/Blueprints/storyBook_gamemode.SKEL_storyBook_gamemode_C:DefaultSceneRoot' ref from Metadata '/Game/storyBook_gamemode.PackageMetaData'
+[2017.08.26-11.13.54:152][737]LogMetaData: Removing '/Game/Blueprints/storyBook_gamemode.SKEL_storyBook_gamemode_C:UserConstructionScript' ref from Metadata '/Game/storyBook_gamemode.PackageMetaData'
+[2017.08.26-11.13.54:152][737]LogMetaData: Removing '/Game/Blueprints/storyBook_gamemode.SKEL_storyBook_gamemode_C' ref from Metadata '/Game/storyBook_gamemode.PackageMetaData'
+[2017.08.26-11.13.54:156][737]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/storyBook_gamemode" FILE="../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Blueprints/storyBook_gamemode.uasset" SILENT=true
+[2017.08.26-11.13.54:172][737]LogSavePackage: Save=13.32ms
+[2017.08.26-11.13.54:172][737]LogSavePackage: Moving '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Saved/storyBook_gamemode6750C272458ECD3C7C9998B7C11CB1A4.tmp' to '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Blueprints/storyBook_gamemode.uasset'
+[2017.08.26-11.13.54:175][737]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Blueprints/storyBook_gamemode.uasset
+[2017.08.26-11.13.54:177][737]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/storyBook_gamemode" FILE="../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/storyBook_gamemode.uasset" SILENT=true
+[2017.08.26-11.13.54:198][737]LogSavePackage: Save=8.35ms
+[2017.08.26-11.13.54:198][737]LogSavePackage: Moving '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Saved/storyBook_gamemode3A94BE9446627389151F1BAEFF445E7D.tmp' to '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/storyBook_gamemode.uasset'
+[2017.08.26-11.13.54:202][737]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/storyBook_gamemode.uasset
+[2017.08.26-11.13.56:076][829]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256) - 210 MB total VRAM
+[2017.08.26-11.13.56:112][829]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64) - 210 MB total VRAM
+[2017.08.26-11.13.56:114][829]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256) - 210 MB total VRAM
+[2017.08.26-11.13.56:156][829]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64) - 210 MB total VRAM
+[2017.08.26-11.13.56:160][829]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 256X128) - 210 MB total VRAM
+[2017.08.26-11.13.56:166][829]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32) - 210 MB total VRAM
+[2017.08.26-11.13.58:722][968]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/MainMenuLvl_BuiltData" FILE="../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Models/MainMenuLvl_BuiltData.uasset" SILENT=true
+[2017.08.26-11.13.58:743][968]LogSavePackage: Save=17.98ms
+[2017.08.26-11.13.58:743][968]LogSavePackage: Moving '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Saved/MainMenuLvl_BuiltData406FC8854BD9564C58F46DBCDC8454D8.tmp' to '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Models/MainMenuLvl_BuiltData.uasset'
+[2017.08.26-11.13.58:747][968]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Models/MainMenuLvl_BuiltData.uasset
+[2017.08.26-11.14.01:978][135]LogMetaData: Removing '/Game/enumeration/DeathType.DeathType' ref from Metadata '/Game/DeathType.PackageMetaData'
+[2017.08.26-11.14.01:980][135]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/enumeration/DeathType" FILE="../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/enumeration/DeathType.uasset" SILENT=true
+[2017.08.26-11.14.01:988][135]LogSavePackage: Save=5.06ms
+[2017.08.26-11.14.01:988][135]LogSavePackage: Moving '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Saved/DeathTypeEC269E6D4BA5D8E4E6A72683699EDD44.tmp' to '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/enumeration/DeathType.uasset'
+[2017.08.26-11.14.01:993][135]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/enumeration/DeathType.uasset
+[2017.08.26-11.14.02:089][135]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/theRiver" FILE="../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Blueprints/theRiver.uasset" SILENT=true
+[2017.08.26-11.14.02:108][135]LogSavePackage: Save=13.89ms
+[2017.08.26-11.14.02:108][135]LogSavePackage: Moving '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Saved/theRiver31DC1C974B2F40D8919B698765EDA935.tmp' to '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Blueprints/theRiver.uasset'
+[2017.08.26-11.14.02:112][135]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Blueprints/theRiver.uasset
+[2017.08.26-11.14.20:363][188]LogMetaData: Removing '/Game/widgits/MainMenu.MainMenu_C' ref from Metadata '/Game/MainMenu.PackageMetaData'
+[2017.08.26-11.14.20:363][188]LogMetaData: Removing '/Game/widgits/MainMenu.MainMenu_C:ExecuteUbergraph_MainMenu' ref from Metadata '/Game/MainMenu.PackageMetaData'
+[2017.08.26-11.14.20:363][188]LogMetaData: Removing '/Game/widgits/MainMenu.MainMenu_C:QuitButton' ref from Metadata '/Game/MainMenu.PackageMetaData'
+[2017.08.26-11.14.20:363][188]LogMetaData: Removing '/Game/widgits/MainMenu.MainMenu_C:StartGameButton' ref from Metadata '/Game/MainMenu.PackageMetaData'
+[2017.08.26-11.14.20:363][188]LogMetaData: Removing '/Game/widgits/MainMenu.MainMenu:EventGraph.K2Node_Event_0' ref from Metadata '/Game/MainMenu.PackageMetaData'
+[2017.08.26-11.14.20:363][188]LogMetaData: Removing '/Game/widgits/MainMenu.MainMenu:EventGraph.K2Node_Event_1' ref from Metadata '/Game/MainMenu.PackageMetaData'
+[2017.08.26-11.14.20:363][188]LogMetaData: Removing '/Game/widgits/MainMenu.SKEL_MainMenu_C:StartGameButton' ref from Metadata '/Game/MainMenu.PackageMetaData'
+[2017.08.26-11.14.20:363][188]LogMetaData: Removing '/Game/widgits/MainMenu.SKEL_MainMenu_C:QuitButton' ref from Metadata '/Game/MainMenu.PackageMetaData'
+[2017.08.26-11.14.20:363][188]LogMetaData: Removing '/Game/widgits/MainMenu.SKEL_MainMenu_C:ExecuteUbergraph_MainMenu' ref from Metadata '/Game/MainMenu.PackageMetaData'
+[2017.08.26-11.14.20:364][188]LogMetaData: Removing '/Game/widgits/MainMenu.SKEL_MainMenu_C' ref from Metadata '/Game/MainMenu.PackageMetaData'
+[2017.08.26-11.14.20:366][188]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/widgits/MainMenu" FILE="../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/widgits/MainMenu.uasset" SILENT=true
+[2017.08.26-11.14.20:417][188]LogSavePackage: Save=48.43ms
+[2017.08.26-11.14.20:417][188]LogSavePackage: Moving '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Saved/MainMenu404BD21D488178FE73D6C493472121D2.tmp' to '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/widgits/MainMenu.uasset'
+[2017.08.26-11.14.20:421][188]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/widgits/MainMenu.uasset
+[2017.08.26-11.14.20:514][188]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MenuGameMode" FILE="../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Blueprints/MenuGameMode.uasset" SILENT=true
+[2017.08.26-11.14.20:541][188]LogSavePackage: Save=16.02ms
+[2017.08.26-11.14.20:541][188]LogSavePackage: Moving '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Saved/MenuGameModeED05E94E4B5CCC9CF980CCB24A023DA2.tmp' to '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Blueprints/MenuGameMode.uasset'
+[2017.08.26-11.14.20:542][188]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Blueprints/MenuGameMode.uasset
+[2017.08.26-11.14.22:486][281]LogMetaData: Removing '/Game/widgits/InGameUI.InGameUI_C:Image1' ref from Metadata '/Game/InGameUI.PackageMetaData'
+[2017.08.26-11.14.22:487][281]LogMetaData: Removing '/Game/widgits/InGameUI.InGameUI_C' ref from Metadata '/Game/InGameUI.PackageMetaData'
+[2017.08.26-11.14.22:487][281]LogMetaData: Removing '/Game/widgits/InGameUI.InGameUI_C:Image2' ref from Metadata '/Game/InGameUI.PackageMetaData'
+[2017.08.26-11.14.22:487][281]LogMetaData: Removing '/Game/widgits/InGameUI.InGameUI_C:Image3' ref from Metadata '/Game/InGameUI.PackageMetaData'
+[2017.08.26-11.14.22:487][281]LogMetaData: Removing '/Game/widgits/InGameUI.SKEL_InGameUI_C:Image3' ref from Metadata '/Game/InGameUI.PackageMetaData'
+[2017.08.26-11.14.22:487][281]LogMetaData: Removing '/Game/widgits/InGameUI.SKEL_InGameUI_C:Image2' ref from Metadata '/Game/InGameUI.PackageMetaData'
+[2017.08.26-11.14.22:487][281]LogMetaData: Removing '/Game/widgits/InGameUI.SKEL_InGameUI_C:Image1' ref from Metadata '/Game/InGameUI.PackageMetaData'
+[2017.08.26-11.14.22:487][281]LogMetaData: Removing '/Game/widgits/InGameUI.SKEL_InGameUI_C' ref from Metadata '/Game/InGameUI.PackageMetaData'
+[2017.08.26-11.14.22:490][281]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/widgits/InGameUI" FILE="../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/widgits/InGameUI.uasset" SILENT=true
+[2017.08.26-11.14.22:511][281]LogSavePackage: Save=14.69ms
+[2017.08.26-11.14.22:511][281]LogSavePackage: Moving '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Saved/InGameUI87A079924A4A1A4D5D03259D2E23F5CC.tmp' to '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/widgits/InGameUI.uasset'
+[2017.08.26-11.14.22:515][281]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/widgits/InGameUI.uasset
+[2017.08.26-11.14.24:623][381]LogSavePackage: Save=111.34ms
+[2017.08.26-11.14.24:623][381]LogSavePackage: Moving '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Saved/DontbeaSheepB744579E40C3AA160BB6EF8F06E4F5A4.tmp' to '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Levels/DontbeaSheep.umap'
+[2017.08.26-11.14.24:625][381]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Levels/DontbeaSheep.umap
+[2017.08.26-11.14.27:791][539]LogSavePackage: Save=51.87ms
+[2017.08.26-11.14.27:791][539]LogSavePackage: Moving '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Saved/MainMenuLvlA85400364414C15E6663D29FCE9EEEDB.tmp' to '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Levels/MainMenuLvl.umap'
+[2017.08.26-11.14.27:795][539]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Levels/MainMenuLvl.umap
+[2017.08.26-11.14.27:797][539]LogFileHelpers: Saving map 'MainMenuLvl' took 0.171
+[2017.08.26-11.14.27:797][539]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/tree_For_Cutting01" FILE="../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Blueprints/tree_For_Cutting01.uasset" SILENT=true
+[2017.08.26-11.14.27:817][539]LogSavePackage: Save=13.57ms
+[2017.08.26-11.14.27:817][539]LogSavePackage: Moving '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Saved/tree_For_Cutting0191ADBD7C4A2D2372CD4DE8B02CC0C580.tmp' to '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Blueprints/tree_For_Cutting01.uasset'
+[2017.08.26-11.14.27:821][539]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Blueprints/tree_For_Cutting01.uasset
+[2017.08.26-11.15.16:685][430]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Enviroment/Book" FILE="../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Models/Enviroment/Book.uasset" SILENT=true
+[2017.08.26-11.15.16:726][430]LogSavePackage: Save=36.66ms
+[2017.08.26-11.15.16:726][430]LogSavePackage: Moving '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Saved/Book6270022348FE2B6030E322BB50CCF2C2.tmp' to '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Models/Enviroment/Book.uasset'
+[2017.08.26-11.15.16:733][430]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Models/Enviroment/Book.uasset
+[2017.08.26-11.15.16:808][430]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Enviroment/Book_Mat" FILE="../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Models/Enviroment/Book_Mat.uasset" SILENT=true
+[2017.08.26-11.15.16:825][430]LogSavePackage: Save=15.03ms
+[2017.08.26-11.15.16:825][430]LogSavePackage: Moving '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Saved/Book_Mat1B6BAB714D22B46AFFEA4697E18838A5.tmp' to '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Models/Enviroment/Book_Mat.uasset'
+[2017.08.26-11.15.16:829][430]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Models/Enviroment/Book_Mat.uasset
+[2017.08.26-11.15.16:838][430]LogSavePackage: Save=6.67ms
+[2017.08.26-11.15.16:838][430]LogSavePackage: Moving '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Saved/Book_PhysicsAssetFF63FC064152D1E9ADCFDBA319CF8D1D.tmp' to '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Models/Enviroment/Book_PhysicsAsset.uasset'
+[2017.08.26-11.15.16:842][430]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Models/Enviroment/Book_PhysicsAsset.uasset
+[2017.08.26-11.15.16:843][430]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Enviroment/Book_Skeleton" FILE="../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Models/Enviroment/Book_Skeleton.uasset" SILENT=true
+[2017.08.26-11.15.16:850][430]LogSavePackage: Save=4.83ms
+[2017.08.26-11.15.16:850][430]LogSavePackage: Moving '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Saved/Book_Skeleton5F3821E04164D9C2338B1494582862BE.tmp' to '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Models/Enviroment/Book_Skeleton.uasset'
+[2017.08.26-11.15.16:853][430]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Models/Enviroment/Book_Skeleton.uasset
+[2017.08.26-11.15.16:873][430]LogSavePackage: Save=17.16ms
+[2017.08.26-11.15.16:873][430]LogSavePackage: Moving '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Saved/MainMenuLvl_BuiltDataA5E69F894FB0612CA22A13825B73B8E5.tmp' to '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Models/Enviroment/MainMenuLvl_BuiltData.uasset'
+[2017.08.26-11.15.16:877][430]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Models/Enviroment/MainMenuLvl_BuiltData.uasset
+[2017.08.26-11.15.16:969][430]LogSavePackage: Save=16.75ms
+[2017.08.26-11.15.16:970][430]LogSavePackage: Moving '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Saved/MainMenuLvlColor44EAAD094C492C01FF753988D734C584.tmp' to '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Models/Enviroment/MainMenuLvlColor.uasset'
+[2017.08.26-11.15.16:973][430]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Models/Enviroment/MainMenuLvlColor.uasset
+[2017.08.26-11.15.27:010][980]LogSavePackage: Save=106.03ms
+[2017.08.26-11.15.27:010][980]LogSavePackage: Moving '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Saved/DontbeaSheep66F1E6A84FEB2F906584FDBDE2FA6336.tmp' to '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Levels/DontbeaSheep.umap'
+[2017.08.26-11.15.27:012][980]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Levels/DontbeaSheep.umap
+[2017.08.26-11.15.30:074][139]LogSavePackage: Save=22.11ms
+[2017.08.26-11.15.30:074][139]LogSavePackage: Moving '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Saved/MainMenuLvlBA30F8FB45E04B69D95441A4E8E8847D.tmp' to '../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Levels/MainMenuLvl.umap'
+[2017.08.26-11.15.30:078][139]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Chris/Desktop/gitHUB Project/dontbeasheep/Content/Levels/MainMenuLvl.umap
+[2017.08.26-11.15.30:080][139]LogFileHelpers: Saving map 'MainMenuLvl' took 0.108
